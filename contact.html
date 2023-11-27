@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+        <link rel="stylesheet" href="styles/index.css">
+
+    </head>
+    <header>
+        <div class="header">
+            <nav class="header__nav">
+                <div class="header__nav-logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="header__menu">
+                    <ul class="header__nav-list">
+                        <li><a class="nav-list__link" href="index.html">Home</a></li>
+                        <li><a class="nav-list__link" href="about.html">About</a></li>
+                        <li><a class="nav-list__link" href="services.html">Services</a></li>
+                        <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-list__link" href="blog.html">Blog</a></li>
+                        <li><a class="nav-list__link" href="contact.html">Contact</a></li>
+                        <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
+                    </ul>
+                </div>
+                <div class="header__nav-btn">
+                    <a href="#" class="buttons dark-button">Get in touch</a>
+                </div>
+                <div class="header__menu-btn hamburger">
+                    <div class="line first"></div>
+                    <div class="line middle"></div>
+                    <div class="line last"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="backgroung-wrapper">
+            <section class="contact">
+                <div class="contact-title">
+                    <h2>Get in touch</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam minus eos, iste, sapiente tenetur non repellat officia numquam ullam obcaecati nesciunt</p>
+                </div>
+                <div class="contact-form">
+                    <form class="contact-form-container">
+                        <div class="input-wrapper">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="John Carter">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="email@example.com">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone">Phone number</label>
+                            <input type="tel" name="phone" placeholder="(123)-465 7890">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject" placeholder="Ex. Services">
+                        </div>
+                        <div class="input-wrapper input-wrapper-message">
+                            <label for="message">Message</label>
+                            <textarea name="message" placeholder="Please describe what service ypo are interested in..."></textarea>
+                        </div>
+                        <div class="contact-form-button">
+                            <a href="#" class="custom-button">Send message</a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <section class="location container">
+            <div class="location-container">
+                <div class="location-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48360.51989949654!2d-73.92809504775289!3d40.750311510531056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25fc4dc80d8e7%3A0x886eb499b11af54c!2zQ29yb25hLCDQndGM0Y4t0JnQvtGA0LogMTEzNjgsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1700164265484!5m2!1suk!2sua" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-text-container">
+                    <div class="location-title">
+                        <h2>Get in touch</h2>
+                        <div class="location-adress">
+                            <p>Address</p>
+                            <span>7674 Gartner Avenue<br />
+                                Corona, NY 11368</span>
+                        </div>
+                        <div>
+                            <p>Contact</p>
+                            <span>(123)456-7890 <br />
+                            contact@architecturefolio.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-include="footer.partial.html"></section>
+
+        <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="js/header-nav.js"></script>
+        <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
+    </body>
+</html>

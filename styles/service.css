@@ -1,0 +1,74 @@
+/* SERVICES PAGE */
+
+.services{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.services__title{
+    text-align: center;
+    margin-bottom: 40px
+}
+.services__title h2{
+    margin-bottom: 10px;
+}
+.service-cards-container{
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr;
+}
+.service-card h3{
+    margin: 30px 0 15px;
+}
+.service-card p{
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services{
+        padding-top: 60px;
+        padding-bottom: 128px;
+    }
+    .services__title{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        max-width: 576px;
+    }
+    .service-cards-container{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 60px;
+    }
+    .services__title h3{
+        margin: 40px 0 15px;
+    }
+    .service-card p{
+        margin-bottom: 35px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .services{
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+    .services__title{
+        max-width: 576px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .services__title h2{
+        margin-bottom: 18px;
+    }
+    .service-cards-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 36px;
+        grid-row-gap: 80px;
+    }
+    .service-card h3{
+        margin: 46px 0 15px;
+    }
+    .service-card p{
+        margin-bottom: 40px;
+    }
+}
+
+

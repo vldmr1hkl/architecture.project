@@ -1,0 +1,10 @@
+@import "global.css";
+@import "style.css";
+
+@import "home.css";
+@import "about.css";
+@import "service.css";
+@import "portfolio.css";
+@import "blog.css";
+@import "contact.css";
+@import "footer.css";

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+        <link rel="stylesheet" href="styles/index.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <nav class="header__nav">
+                    <div class="header__nav-logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__nav-list">
+                            <li><a class="nav-list__link" href="index.html">Home</a></li>
+                            <li><a class="nav-list__link" href="about.html">About</a></li>
+                            <li><a class="nav-list__link" href="services.html">Services</a></li>
+                            <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="nav-list__link" href="blog.html">Blog</a></li>
+                            <li><a class="nav-list__link" href="contact.html">Contact</a></li>
+                            <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__nav-btn">
+                        <a href="#" class="buttons dark-button">Get in touch</a>
+                    </div>
+                    <div class="header__menu-btn hamburger">
+                        <div class="line first"></div>
+                        <div class="line middle"></div>
+                        <div class="line last"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+
+        <main>
+            <div class="backgroung-wrapper">
+                <section class="home-hero">
+                    <div class="home-hero__title">
+                        <h1>We are a fine architecture firm in New York</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci, volutpat vel proin mattis id suspendisse vel egestas.</p>
+                    </div>
+                    <div class="home-hero__buttons">
+                        <div>
+                            <a class="buttons dark-button" href="#">Get in touch
+                                <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="buttons light-button" href="#">Browse servises</a>
+                        </div>
+                    </div>
+                    <div class="home-hero__img-wrapper">
+                        <img class="img-fluid" src="img/house-in-manhattan.jpeg" alt="house in manhattan">
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-wrapper">
+                <section class="home-services">
+                    <div class="home-portfolio-title">
+                        <h2>Our portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci, volutpat vel proin sit.</p>
+                    </div>
+                    <div class="service-cards-container">
+                        <a href="#" class="service-card card-link">
+                            <div class="service-card-img image-container">
+                                <img class="img-fluid" src="img/architecture-design.jpeg" alt="architecture design">
+                            </div>
+                            <h2>Architectural Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?</p>  
+                            <span class="border-link">View services</span>
+                        </a>
+                        <a href="#" class="service-card card-link">
+                            <div class="service-card-img image-container">
+                                <img class="img-fluid" src="img/interior-design.jpeg" alt="interior design">
+                            </div>
+                            <h2>interior Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?</p>
+                            <span class="border-link">View services</span>
+                        </a>
+                        <a href="#" class="service-card card-link">
+                            <div class="service-card-img image-container">
+                                <img class="img-fluid" src="img/space-planing.jpeg" alt="space planning">
+                            </div>
+                            <h2>Space Planning</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?</p>
+                            <span class="border-link">View services</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+
+            <section class="about-firm">
+                <div class="about-firm__img-wrapper">
+                    <img src="img/about-firm-backgroung.jpeg">
+                </div>
+                <div class="about-firm-wrapper">
+                    <div class="about-firm__info">
+                        <div class="about-firm-title">
+                            <h2>About our firm</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cupiditate officiis. Sed quod similique aliquam nostrum modi, impedit iste consequatur alias doloribus dolorem praesentium eos officiis quia fuga, nihil quidem.</p>
+                        </div>
+                        <div class="about-firm-button">
+                            <a href="#" class="buttons dark-button">Get in touch
+                                <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-wrapper">
+                <section data-include="contact-quote.partial.html">
+                </section>
+            </div>
+
+
+            <section class="home-portfolio">
+                <div class="home-portfolio-title">
+                    <h2>Our portfolio</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci, volutpat vel proin sit.</p>
+                </div>
+                <div class="portfolio-cards-container">
+                    <div class="portfolio-card">
+                        <a href="#" class="card-link">
+                            <div class="portfolio-card-img image-container">
+                                <img class="img-fluid" src="img/house-in-manhattan.jpeg" alt="house-in-manhattan">
+                            </div>
+                            <div class="portfolio-card-title">
+                                <span>New York, NY - June 23, 2021</span>
+                                <h2>House architecture design in Manhattan, New York</h2>
+                                <p class="border-link">View project</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-card">
+                        <a href="#" class="card-link">
+                            <div class="portfolio-card-img image-container">
+                                <img class="img-fluid" src="img/design-in-blooklyn.jpeg" alt="design-in-blooklyn">
+                            </div>
+                            <div class="portfolio-card-title">
+                                <span>New York, NY - June 23, 2021</span>
+                                <h2>Interior design in Brooklyn Heights, New York</h2>
+                                <p class="border-link">View project</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-portfolio-buttons">
+                    <div>
+                        <a class="buttons dark-button" href="">Get in touch
+                            <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="buttons light-button" href="">Browse portfolio</a>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="section-wrapper">
+                <section class="video-section">
+                    <div class="video-section__img-wrapper">
+                        <img class="img-fluid" src="img/poster-for-video.jpeg" alt="poster for video">
+                    </div>
+                    <div class="video-section-container row">
+                        <div class="video-section-info">
+                            <h2>Take a look at our most recent project</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, corporis ipsum earum nulla quos obcaecati nihil dolor similique laboriosam quo!</p>
+                            <a href="#" class="custom-button">Get in touch</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="client-feedback container">
+                <h2>Wts</h2>
+            </section>
+
+           
+            
+
+          
+
+            
+
+            <section data-include="footer.partial.html">
+            </section>
+            
+
+            
+
+
+            
+        </main>
+
+        <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="js/index.js"></script>
+        <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
+    </body>
+</html>
