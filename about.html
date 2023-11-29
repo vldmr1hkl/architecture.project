@@ -7,215 +7,225 @@
         <link rel="stylesheet" href="styles/index.css">
 
     </head>
-    <header>
-        <div class="header">
-            <nav class="header__nav">
-                <div class="header__nav-logo">
-                    <img src="img/logo.svg" alt="logo">
-                </div>
-                <div class="header__menu">
-                    <ul class="header__nav-list">
-                        <li><a class="nav-list__link" href="index.html">Home</a></li>
-                        <li><a class="nav-list__link" href="about.html">About</a></li>
-                        <li><a class="nav-list__link" href="services.html">Services</a></li>
-                        <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-list__link" href="blog.html">Blog</a></li>
-                        <li><a class="nav-list__link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
-                    </ul>
-                </div>
-                <div class="header__nav-btn">
-                    <a href="#" class="buttons dark-button">Get in touch</a>
-                </div>
-                <div class="header__menu-btn hamburger">
-                    <div class="line first"></div>
-                    <div class="line middle"></div>
-                    <div class="line last"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
     <body>
-        <section class="about-hero">
-            <div class="about-hero__title">
-                <h1>About our firm</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit netus praesent eu orci volutpat vel proin mattis id suspendisse vel egestas.</p>
-            </div>
-            <div class="about-hero__img-wrapper">
-                <div class="about-hero__img-right">
-                    <img  src="img/office-workers.jpeg" alt="office workers">
-                </div>
-                <div class="about-hero__img-left">
-                    <img  src="img/about-hero.jpeg" alt="about firm">
-                </div>
-            </div>
-        </section>
-
-        <div class="section-wrapper">
-            <section class="firm-story">
-                <div class="firm-story__item-top">
-                    <div class="firm-story__title">
-                        <h2>Our firm story</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit risus mi faucibus laoreet interdum cum tincidunt ut accumsa sit potenti elit gravida tellus mi in enim a suspendisse eget nulladolorm lacinia. Suspendisse iaculis quis quam enim quis id vestibulumolm euismod platea proin nibh pretium.</p>
-                    </div>
-                    <div class="firm-story__img-wrapper">
-                        <div>
-                            <img class="img-fluid" src="img/architectural-drawing.jpeg" alt="architectural drawing">
+        <div data-include="bg-lines.partial.html">
+        </div>
+        <main>
+            
+            <header>
+                <div class="header">
+                    <nav class="header__nav">
+                        <div class="header__nav-logo">
+                            <img src="img/logo.svg" alt="logo">
                         </div>
-                        <div>
-                            <img class="img-fluid" src="img/architectural-drawings.jpeg" alt="architectural drawings">
+                        <div class="header__menu">
+                            <ul class="header__nav-list">
+                                <li><a class="nav-list__link" href="index.html">Home</a></li>
+                                <li><a class="nav-list__link" href="about.html">About</a></li>
+                                <li><a class="nav-list__link" href="services.html">Services</a></li>
+                                <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
+                                <li><a class="nav-list__link" href="blog.html">Blog</a></li>
+                                <li><a class="nav-list__link" href="contact.html">Contact</a></li>
+                                <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__nav-btn">
+                            <a href="#" class="buttons dark-button">Get in touch</a>
+                        </div>
+                        <div class="theme-switcher">
+                            <div class="button content" id="dark-mode-button"></div>
+                            <div class="button content" id="light-mode-button"></div>
+                        </div>
+                        <div class="header__menu-btn hamburger">
+                            <div class="line first"></div>
+                            <div class="line middle"></div>
+                            <div class="line last"></div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            
+            <section class="about-hero">
+                <div class="about-hero__title">
+                    <h1>About our firm</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit netus praesent eu orci volutpat vel proin mattis id suspendisse vel egestas.</p>
+                </div>
+                <div class="about-hero__img-wrapper">
+                    <div class="about-hero__img-right">
+                        <img  src="img/office-workers.jpeg" alt="office workers">
+                    </div>
+                    <div class="about-hero__img-left">
+                        <img  src="img/about-hero.jpeg" alt="about firm">
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-wrapper">
+                <section class="firm-story">
+                    <div class="firm-story__item-top">
+                        <div class="firm-story__title">
+                            <h2>Our firm story</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit risus mi faucibus laoreet interdum cum tincidunt ut accumsa sit potenti elit gravida tellus mi in enim a suspendisse eget nulladolorm lacinia. Suspendisse iaculis quis quam enim quis id vestibulumolm euismod platea proin nibh pretium.</p>
+                        </div>
+                        <div class="firm-story__img-wrapper">
+                            <div>
+                                <img class="img-fluid" src="img/architectural-drawing.jpeg" alt="architectural drawing">
+                            </div>
+                            <div>
+                                <img class="img-fluid" src="img/architectural-drawings.jpeg" alt="architectural drawings">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="firm-story__item-bottom">
-                    <div class="firm-story__title">
-                        <h2>How we started</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit risus mi faucibus laoreet interdum cum tincidunt ut accumsa sit potenti  elit gravida tellus mi in enim a suspendisse eget nulladolorm lacinia. Suspendisse iaculis quis quam enim quis id vestibulumolm euismod platea proin nibh pretium.</p>
+                    <div class="firm-story__item-bottom">
+                        <div class="firm-story__title">
+                            <h2>How we started</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit risus mi faucibus laoreet interdum cum tincidunt ut accumsa sit potenti  elit gravida tellus mi in enim a suspendisse eget nulladolorm lacinia. Suspendisse iaculis quis quam enim quis id vestibulumolm euismod platea proin nibh pretium.</p>
+                        </div>
+                        <div class="firm-story__img-wrapper">
+                            <img class="img-fluid" src="img/people-in-the-office.jpeg" alt="people in the office">
+                        </div>
                     </div>
-                    <div class="firm-story__img-wrapper">
-                        <img class="img-fluid" src="img/people-in-the-office.jpeg" alt="people in the office">
+                </section>
+            </div>
+
+            <section class="impact">
+                <div class="impact__title">
+                    <h2>Our impact in numbers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a recusandae voluptatum sapiente ut optio odit. Commodi consequatur, quidem debitis sit sequi non illo molestiae dicta fugit quaerat! Ipsum, quam.</p>
+                </div>
+                <div class="impact__items">
+                    <div class="impact__item">
+                        <span>15+</span>
+                        <h3>Years of experience</h3>
+                    </div>
+                    <div class="impact__item">
+                        <span>200+</span>
+                        <h3>Succesful projects</h3>
+                    </div>
+                    <div class="impact__item">
+                        <span>55+</span>
+                        <h3>Team members</h3>
+                    </div>
+                    <div class="impact__item">
+                        <span>120+</span>
+                        <h3>Satisfield clients</h3>
                     </div>
                 </div>
             </section>
-        </div>
 
-        <section class="impact">
-            <div class="impact__title">
-                <h2>Our impact in numbers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a recusandae voluptatum sapiente ut optio odit. Commodi consequatur, quidem debitis sit sequi non illo molestiae dicta fugit quaerat! Ipsum, quam.</p>
+
+            <div class="section-wrapper">
+                <section class="team">
+                    <div class="team-title">
+                        <h2>Meet our team</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci volutpat vel proin mattisol.</p>
+                    </div>
+                    <div class="team__members-container">
+                        <div class="team-member">
+                            <a href="#" class="card-link">
+                                <div class="team-member-photo image-container">
+                                    <img class="img-fluid" src="img/john-carter.jpeg" alt="john-carter">
+                                </div>
+                                <div class="team-member-info">
+                                    <h2 class="text-color-hover">John Carter</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-member">
+                            <a href="#" class="card-link">
+                                <div class="team-member-photo image-container">
+                                    <img class="img-fluid" src="img/andy-smith.jpeg" alt="andy-smith">
+                                </div>
+                                <div class="team-member-info">
+                                    <h2 class="text-color-hover">Andy Smith</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-member">
+                            <a href="#" class="card-link">
+                                <div class="team-member-photo image-container">
+                                    <img class="img-fluid" src="img/mike-warren.jpeg">
+                                </div>
+                                <div class="team-member-info">
+                                    <h2 class="text-color-hover">Mike Warren</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="impact__items">
-                <div class="impact__item">
-                    <span>15+</span>
-                    <h3>Years of experience</h3>
-                </div>
-                <div class="impact__item">
-                    <span>200+</span>
-                    <h3>Succesful projects</h3>
-                </div>
-                <div class="impact__item">
-                    <span>55+</span>
-                    <h3>Team members</h3>
-                </div>
-                <div class="impact__item">
-                    <span>120+</span>
-                    <h3>Satisfield clients</h3>
-                </div>
-            </div>
-        </section>
 
-
-        <div class="section-wrapper">
-            <section class="team">
-                <div class="team-title">
-                    <h2>Meet our team</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci volutpat vel proin mattisol.</p>
-                </div>
-                <div class="team__members-container">
-                    <div class="team-member">
-                        <a href="#" class="card-link">
-                            <div class="team-member-photo image-container">
-                                <img class="img-fluid" src="img/john-carter.jpeg" alt="john-carter">
-                            </div>
-                            <div class="team-member-info">
-                                <h2 class="text-color-hover">John Carter</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
-                            </div>
+            <section class="values container">
+                <div class="values__info">
+                    <div class="values__title">
+                        <h2>Our Values</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequatur? Facilis ipsa deleniti necessitatibus molestiae doloremque accusamus dolore iure distinctio debitis, sapiente adipisci!</p>
+                    </div>
+                    <div class="values__button">
+                        <a href="#" class="buttons dark-button">Get in touch
+                            <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i></i>
                         </a>
                     </div>
-                    <div class="team-member">
-                        <a href="#" class="card-link">
-                            <div class="team-member-photo image-container">
-                                <img class="img-fluid" src="img/andy-smith.jpeg" alt="andy-smith">
-                            </div>
-                            <div class="team-member-info">
-                                <h2 class="text-color-hover">Andy Smith</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
-                            </div>
-                        </a>
+                </div>
+                <div class="values__cards-container">
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/excellence.svg" alt="excellence">
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
                     </div>
-                    <div class="team-member">
-                        <a href="#" class="card-link">
-                            <div class="team-member-photo image-container">
-                                <img class="img-fluid" src="img/mike-warren.jpeg">
-                            </div>
-                            <div class="team-member-info">
-                                <h2 class="text-color-hover">Mike Warren</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur dolor si adipiscing elit netus praesent eu orci volu.</p>
-                            </div>
-                        </a>
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/achivement.svg" alt="achivement">
+                        </div>
+                        <h4>Achivement</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
+                    </div>
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/quality.svg" alt="quality">
+                        </div>
+                        <h4>Quality</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
+                    </div>
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/innovation.svg" alt="innovation">
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
+                    </div>
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/team-work.svg" alt="team-work">
+                        </div>
+                        <h4>Team work</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
+                    </div>
+                    <div class="values__card">
+                        <div class="values__card-img">
+                            <img src="img/transparency.svg" alt="transparency">
+                        </div>
+                        <h4>Transparency</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
                     </div>
                 </div>
             </section>
-        </div>
 
-        <section class="values container">
-            <div class="values__info">
-                <div class="values__title">
-                    <h2>Our Values</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequatur? Facilis ipsa deleniti necessitatibus molestiae doloremque accusamus dolore iure distinctio debitis, sapiente adipisci!</p>
-                </div>
-                <div class="values__button">
-                    <a href="#" class="buttons dark-button">Get in touch
-                        <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i></i>
-                    </a>
-                </div>
+            <div class="section-wrapper">
+                <section data-include="contact-quote.partial.html"></section>
             </div>
-            <div class="values__cards-container">
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/excellence.svg" alt="excellence">
-                    </div>
-                    <h4>Excellence</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/achivement.svg" alt="achivement">
-                    </div>
-                    <h4>Achivement</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/quality.svg" alt="quality">
-                    </div>
-                    <h4>Quality</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/innovation.svg" alt="innovation">
-                    </div>
-                    <h4>Innovation</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/team-work.svg" alt="team-work">
-                    </div>
-                    <h4>Team work</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-                <div class="values__card">
-                    <div class="values__card-img">
-                        <img src="img/transparency.svg" alt="transparency">
-                    </div>
-                    <h4>Transparency</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio quae doloribus.</p>
-                </div>
-            </div>
-        </section>
 
-        <div class="section-wrapper">
-            <section data-include="contact-quote.partial.html">
-            </section>
-        </div>
+            <section data-include="footer.partial.html"></section>
 
-        <section data-include="footer.partial.html"></section>
-
+        </main>
 
         <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="js/bg-lines.js"></script>
         <script src="js/header-nav.js"></script>
         <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
         

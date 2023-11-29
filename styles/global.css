@@ -13,6 +13,18 @@
 body{
     background-color: var(--main-background);
     font-family: 'Sulphur Point', sans-serif;
+    height: 100%;
+    position: relative;
+}
+main{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: relative;
+    z-index: 999;
+
+}
+.opacity{
+    opacity: 1;
 }
 img{
     display: block;
@@ -123,12 +135,12 @@ h6{
 
 
 /* GENERAL CLASSES */
+
+.overflow-hidden{
+    overflow: hidden;
+}
 .backgroung-wrapper{
-    background: linear-gradient(
-        to top,
-        rgb(0, 0, 0) 50%,
-        var(--main-background) 50%
-    );
+    
     overflow: hidden;
 }
 .section-wrapper{

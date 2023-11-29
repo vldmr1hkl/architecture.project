@@ -20,7 +20,7 @@ header{
     height: 100vh;
     top: 100px;
     left: 0;
-    background-color: var(--main-background);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     padding: 60px 0;
@@ -36,6 +36,7 @@ header{
 }
 .header__nav-list.show{
     transform: translateX(0);
+    background-color: var(--main-background);
     opacity: 1;
 }
 .header__nav-btn{
@@ -686,4 +687,194 @@ header{
         flex-direction: row;
         margin-bottom: 140px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1243px;;
+    /* overflow: hidden; */
+    position: absolute;
+
+}
+
+
+.bg-line {
+    width: 1px;
+    height: 100%;
+    background-color: rgba(123, 123, 123, 0.527);
+    position: absolute;
+    z-index: -999;
+    
+    
+}
+
+.bg-line:nth-child(1){
+    animation: moveLeftLineOn75 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;  
+}
+.bg-line:nth-child(2){
+    animation: moveLeftLineOn50 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+.bg-line:nth-child(3){
+    animation: moveRightLineOn75 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+.bg-line:nth-child(4){
+    animation: moveRightLineOn50 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes moveLeftLineOn75 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10vw);
+    }
+}
+
+@keyframes moveRightLineOn75 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-10vw);
+    }
+}
+
+@keyframes moveLeftLineOn50 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-35vw);
+    }
+}
+
+@keyframes moveRightLineOn50 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(35vw);
+    }
+}     
+@keyframes changeColor {
+    0% {
+        background-color: rgba(45, 45, 45, 0.215);
+    }
+    90% {
+        background-color: rgba(55, 55, 55, 0.215);
+    }
+    100% {
+        background-color: #e6e6e6; /* Сірий колір тексту в кінці анімації */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme-switcher {
+    width: 48px;
+	height: 48px;
+    cursor: pointer;
+}
+
+#dark-mode-button {
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+	transition: all 0.5s ease;
+	width: 48px;
+	height: 48px;
+}
+
+#dark-mode-button::before {
+	content: "";
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	right: -16px;
+	top: -16px;
+	background-color: var(--main-background);
+	border-radius: 50%;
+}
+
+#light-mode-button {
+    display: none;
+	background-color: var(--main-background);
+	position: relative;
+	transform: scale(0.45);
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	transition: transform 0.5s ease;
+}
+
+#light-mode-button::before {
+	box-shadow: var(--main-background) 0px -48px 0px, var(--main-background) 0px 48px 0px, var(--main-background) 48px 0px 0px,
+    var(--main-background) -48px 0px 0px, var(--main-background) 35px 35px 0px, var(--main-background) -35px 35px 0px,
+    var(--main-background) 35px -35px 0px, var(--main-background) -35px -35px 0px;
+	content: "";
+	width: 16px;
+	height: 16px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	margin: -8px 0px 0px -8px;
+}
+
+.light-mode-bg{
+    background-color: var(--main-background);
+    color: black;
+}
+
+.dark-mode-bg{
+    background: radial-gradient(circle at 99.1% 51.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 95.4%);
+    color: white;
+    opacity: 0.8;
+}
+.dark-mode-caption{
+    /* background-color: rgba(110, 110, 110, 0.73);
+    color: black; */
+    filter: invert(1);
+}
+.dark-mode-caption img{
+    filter: invert(1);
+}
+.dark-mode-bg-lines{
+    opacity: 0.09;
+}
+.dark-mode-values-card{
+    filter: invert(1);
+    background-color: #09090917;
+    color: black;
 }
