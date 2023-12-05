@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +12,13 @@
 }
 body{
     background-color: var(--main-background);
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     height: 100%;
     position: relative;
 }
 main{
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+    
+    /* transition: opacity 1s ease-in-out; */
     position: relative;
     z-index: 999;
 
@@ -68,7 +68,18 @@ h5{
 h6{
     font-size: 14px;
 }
+p{
+    line-height: 2em;
+    color: #a9a8a8;
+}
+.section-wrapper p{
+    color: #a9a8a8;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    main{
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
     section,
     .header{
         padding-left: 24px;
@@ -98,6 +109,10 @@ h6{
     
 }
 @media only screen and (min-width: 992px){
+    main{
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
     section,
     .header{
         padding-left: 24px;
@@ -127,7 +142,9 @@ h6{
     
 }
 
-
+span{
+    display: block;
+}
 
 
 
@@ -140,14 +157,16 @@ h6{
     overflow: hidden;
 }
 .backgroung-wrapper{
-    
     overflow: hidden;
 }
 .section-wrapper{
     background: var(--dark-backgroud);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
+.backgroung-wrapper{
+    background: linear-gradient(to top, black 50%, transparent 50%);
+}
 
 
 /* Buttons */
@@ -234,4 +253,105 @@ i{
 
 
 
+.services.services-slider{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.services-slider .services__title{
+    margin: 0;
+    padding-bottom: 120px;
+    text-align: left;
+    padding-left: 15px;
+}
 
+.service-card.slick-slide{
+    padding: 0 15px;
+}
+
+.slick-arrow{
+    min-height: 68px;
+    min-width: 68px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 0;
+    border: 1.5px solid var(--main-background);
+    font-size: 15px;
+    transition: border-color .3s, transform .3s;
+}
+
+.slick-arrow:active,
+.slick-arrow:hover{
+    border-color: rgb(130, 130, 130);
+    border-width: 1px;
+    transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+}
+
+.slick-prev{
+    background: url(../img/prev-arrow.png) 0 0 no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slick-next{
+    background: url(../img/next-arrow.png) 0 0 no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slick-prev, .slick-next{
+    padding: 10px;
+    font-size: 0;
+    left: 15px;
+    top: -95px;
+
+}
+.slick-next{
+    left: 105px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services.services-slider{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .services-slider .services__title{
+        padding-bottom: 60px;
+    }
+    .service-card.slick-slide{
+        padding: 0 15px;
+    }
+    .slick-prev, .slick-next{
+        padding: 10px;
+        font-size: 0;
+        left: auto;
+        right: 15px;
+        top: -130px;
+    
+    }
+    .slick-prev{
+        right: 105px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .services.services-slider{
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    .services-slider .services__title{
+        padding-bottom: 67px;
+    }
+    .service-card.slick-slide{
+        padding: 0 15px;
+    }
+    .slick-prev, .slick-next{
+        padding: 10px;
+        font-size: 0;
+        left: auto;
+        right: 15px;
+        top: -130px;
+    
+    }
+    .slick-prev{
+        right: 105px;
+    }
+}

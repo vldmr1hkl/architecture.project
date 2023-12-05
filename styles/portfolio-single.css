@@ -1,0 +1,124 @@
+.project{
+    padding-bottom: 61px;
+}
+
+.project-container{
+    position: relative;
+    margin-bottom: 100px;
+
+}
+.project-info-container{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 25px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    width: 85%;
+    left: 50%;
+    bottom: -15%;
+    transform: translateX(-50%);
+
+}
+.project-info__label{
+    margin-bottom: 3px;
+}
+.project-hero *{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 834px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .project{
+        padding-top: 60px;
+        padding-bottom: 96px;
+    }
+    .project-container{
+        margin-bottom: 120px;
+    }
+    .project-info-container{
+        padding: 40px 50px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto auto auto;
+    }
+    .project-info__label{
+        margin-bottom: 5px;
+    }
+    .project-hero h2{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .project{
+        padding-top: 40px;
+        padding-bottom: 61px;
+    }
+
+    .project-info-container{
+        padding: 44px 85px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto auto auto;
+        bottom: -8%;
+    }
+    .project-info__label{
+        margin-bottom: 9px;
+    }
+    .project-hero h2{
+        margin-bottom: 37px;
+    }
+}
+
+
+.about-project{
+    margin: 0 auto;
+    max-width: 834px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-project p{
+    margin-bottom: 23px;
+}
+.about-project li{
+    margin-bottom: 8px;
+    list-style: circle;
+}
+.about-project-concepts{
+    margin-bottom: 83px;
+}
+.about-project ul{
+    padding: 23px 0px 33px 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-project{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .about-project p{
+        margin-bottom: 28px;
+    }
+    .about-project-concepts{
+        margin-bottom: 100px;
+    }
+    .about-project ul{
+        padding: 28px 0px 40px 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .about-project{
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .about-project p{
+        margin-bottom: 32px;
+    }
+    .about-project-concepts{
+        margin-bottom: 143px;
+    }
+    .about-project ul{
+        padding: 32px 0px 42px 40px;
+    }
+}

@@ -7,59 +7,29 @@
         <link rel="stylesheet" href="styles/index.css">
 
     </head>
-    <header>
-        <div class="header">
-            <nav class="header__nav">
-                <div class="header__nav-logo">
-                    <img src="img/logo.svg" alt="logo">
-                </div>
-                <div class="header__menu">
-                    <ul class="header__nav-list">
-                        <li><a class="nav-list__link" href="index.html">Home</a></li>
-                        <li><a class="nav-list__link" href="about.html">About</a></li>
-                        <li><a class="nav-list__link" href="services.html">Services</a></li>
-                        <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-list__link" href="blog.html">Blog</a></li>
-                        <li><a class="nav-list__link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
-                    </ul>
-                </div>
-                <div class="header__nav-btn">
-                    <a href="#" class="buttons dark-button">Get in touch</a>
-                </div>
-                <div class="theme-switcher">
-                    <div class="button content" id="dark-mode-button"></div>
-                    <div class="button content" id="light-mode-button"></div>
-                </div>
-                <div class="header__menu-btn hamburger">
-                    <div class="line first"></div>
-                    <div class="line middle"></div>
-                    <div class="line last"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    
 
     <body>
-        <section class="portfolio container">
-            <div class="portfolio-hero">
-                <h2>Our portfolio</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis a molestiae quos eos cum fuga?</p>
-            </div>
-            <div id="projectCarsContainer" class="portfolio-cards-container">
-                
-            </div>
-        </section>
-        <div class="section-wrapper">
-            <section data-include="contact-quote.partial.html">
+        <section data-include="bg-lines.partial.html"></section>
+        <main>
+            <header data-include="header-nav.partial.html"></header>
+            <section class="portfolio container">
+                <div class="portfolio-hero">
+                    <h2>Our portfolio</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis a molestiae quos eos cum fuga?</p>
+                </div>
+                <div id="projectCarsContainer" class="portfolio-cards-container">
+                </div>
             </section>
-        </div>
-        
-        <section data-include="footer.partial.html"></section>
-        
-
-        
+            <div class="section-wrapper">
+                <section data-include="contact-quote.partial.html">
+                </section>
+            </div>
+            <section data-include="footer.partial.html"></section>
+        </main>
         <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
+        <script src="js/bg-lines.js"></script>
         <script src="js/header-nav.js"></script>
         <script src="js/portfolio.js"></script>
     </body>

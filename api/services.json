@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Architectural Design",
+    "description": "Creating innovative and functional architectural designs tailored to your unique vision. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "architecture-design.jpeg",
+    "id": 1,
+    "aboutService": "Our architectural design services are a collaborative journey where we partner with you to turn your dreams into tangible structures. We prioritize open communication and active client involvement throughout the design process, ensuring that the final result not only meets but exceeds your expectations. From the initial concept to the final blueprint, we strive for excellence in every detail.",
+    "whatServiceIncluded": "Includes in-depth consultations, 3D modeling and virtual walkthroughs, detailed blueprint creation, coordination with architects and engineers, and continuous client feedback sessions.",
+    "additionalInfo": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Suspendisse potenti. Vestibulum euismod placerat ipsum sit amet tincidunt.",
+      "Pellentesque ac justo vitae tellus cursus convallis.",
+      "Vivamus non tortor in est euismod facilisis.",
+      "Ut eget odio at libero accumsan eleifend a vel justo.",
+      "Curabitur euismod purus eu nunc congue, id luctus ipsum interdum."
+    ]
+  },
+  {
+    "name": "Interior Design",
+    "description": "Transforming interiors into captivating and harmonious spaces that reflect your style. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "interior-design.jpeg",
+    "id": 2,
+    "aboutService": "Our interior design services are all about creating environments that tell your story. We delve into understanding your lifestyle, preferences, and aspirations to curate interiors that resonate with you. Our team of experienced designers brings creativity and functionality together, ensuring that your space not only looks beautiful but also serves its purpose seamlessly.",
+    "whatServiceIncluded": "Comprises comprehensive space planning, personalized color schemes, bespoke furniture selection, detailed design implementation, and periodic site inspections to ensure quality execution.",
+    "additionalInfo": [
+      "Fusce malesuada nunc in urna eleifend, in ultricies odio ullamcorper.",
+      "Integer a dolor vitae turpis sagittis tristique.",
+      "Nunc vel massa ac nulla aliquet hendrerit.",
+      "Sed fermentum felis a odio luctus, at aliquam augue consequat.",
+      "Donec ut metus at justo tristique tincidunt vel a purus."
+    ]
+  },
+  {
+    "name": "Space Planning",
+    "description": "Optimizing spatial layouts for maximum efficiency and comfort. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "space-planing.jpeg",
+    "id": 3,
+    "aboutService": "Space planning is the backbone of a well-designed and functional space. Our approach involves a meticulous analysis of your spatial requirements and objectives. We prioritize optimizing layouts for improved flow, comfort, and efficiency. Through careful consideration of every square foot, we aim to create environments that not only meet but exceed your expectations.",
+    "whatServiceIncluded": "Involves detailed floor plans, furniture arrangement strategies, traffic flow analysis, utilization of available space, and 3D visualizations for a comprehensive understanding.",
+    "additionalInfo": [
+      "Aliquam erat volutpat. Nunc id quam in elit luctus hendrerit.",
+      "Cras vel mauris nec dui facilisis pharetra.",
+      "Maecenas et libero sit amet sapien tincidunt fermentum.",
+      "Ut convallis justo ac tortor suscipit, vel convallis tellus iaculis."
+    ]
+  },
+  {
+    "name": "Decoration",
+    "description": "Adding the finishing touches that elevate your space to perfection. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "decoration.jpeg",
+    "id": 4,
+    "aboutService": "Our decoration services focus on the subtle yet impactful details that bring a space to life. We believe that the right decor elements can transform a room and reflect the personality of its occupants. From selecting the perfect color palette to choosing the ideal accessories, we pay meticulous attention to every aspect to ensure a cohesive and visually stunning result.",
+    "whatServiceIncluded": "Includes the selection of decor elements, color coordination, lighting accents, personalized decor recommendations, and the procurement of unique and bespoke items.",
+    "additionalInfo": [
+      "Aenean sit amet libero ut elit ullamcorper congue.",
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "Cras in tortor vel felis fermentum tristique.",
+      "Nullam nec elit vel velit varius consectetur.",
+      "Sed vitae ligula ut neque rhoncus cursus.",
+      "Donec imperdiet elit vel urna laoreet, non hendrerit dolor accumsan."
+    ]
+  },
+  {
+    "name": "Exterior Design",
+    "description": "Crafting visually stunning exteriors that make a lasting impression. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "exterior-design.jpeg",
+    "id": 5,
+    "aboutService": "Exterior design is the first impression your property makes on the world. Our approach involves creating visually striking exteriors that not only complement the surrounding landscape but also resonate with your unique style. We blend architectural elements with landscaping to craft outdoor spaces that leave a lasting impression on residents and visitors alike.",
+    "whatServiceIncluded": "Comprises facade design, landscaping plans, outdoor lighting concepts, coordination with construction teams, and the selection of durable and aesthetically pleasing exterior materials.",
+    "additionalInfo": [
+      "Quisque sodales lacus a leo facilisis, at volutpat enim commodo.",
+      "Duis vel ex eu turpis pellentesque tincidunt ac vel ligula.",
+      "Integer dapibus nulla nec justo gravida bibendum.",
+      "Pellentesque ac quam nec tortor congue venenatis sit amet et libero."
+    ]
+  },
+  {
+    "name": "Construction",
+    "description": "Bringing your architectural visions to life with precision and expertise. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "construction.jpeg",
+    "id": 6,
+    "aboutService": "Our construction services go beyond bricks and mortar; we are committed to bringing your architectural visions to life with precision and expertise. From the foundation to the finishing touches, we prioritize quality, adherence to timelines, and safety. Our collaborative approach ensures a seamless construction process and the successful realization of your project.",
+    "whatServiceIncluded": "Includes comprehensive project management, site preparation, construction supervision, collaboration with skilled craftsmen, and regular progress updates to keep you informed.",
+    "additionalInfo": [
+      "Proin id elit et tellus convallis dapibus.",
+      "Nam consectetur nisi sit amet justo tristique, ut interdum lacus aliquam.",
+      "Aliquam ac nisl at risus venenatis eleifend.",
+      "Pellentesque consectetur velit nec urna efficitur, non eleifend est pellentesque.",
+      "Morbi consectetur velit at tortor suscipit tincidunt.",
+      "Donec bibendum libero vel libero congue, a rhoncus elit vulputate."
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+.accordion{
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+.accordion h2{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.accordion__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion__content-item{
+    padding: 40px 0;
+    border-top: 1px solid grey;
+}
+
+.accordion__content-right .accordion__content-item:last-child{
+    border-bottom: 1px solid grey;
+}
+
+.accordion__content-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion__content-question h4{
+    padding: 0;
+}
+
+.accordion__content-answer{
+    padding-top: 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s, height 0.3s;
+}
+
+.accordion__content-answer.active{
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.7s, height 0.7s;
+}
+
+.accordion__btn {
+    min-width: 35px;
+    min-height: 35px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.accordion__btn.active{
+    background-color: #ffffff;
+}
+
+.accordion__btn::before,
+.accordion__btn::after {
+    content: "";
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transition: transform 0.3s, opacity 0.3s; 
+}
+
+.accordion__btn.active::before,
+.accordion__btn.active::after{
+    background-color: black;
+}
+
+.accordion__btn::before {
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.accordion__btn::after {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
+.accordion__btn.active::before {
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    opacity: 0;
+}
+
+.accordion__btn.active::after {
+    transform: translateX(-50%) translateY(-50%) rotate(0);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .accordion{
+        padding-top: 92px;
+        padding-bottom: 92px;
+    }
+    .accordion h2{
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .accordion__content-item{
+        padding: 48px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .accordion{
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .accordion h2{
+        padding-bottom: 64px;
+        text-align: center;
+    }
+    .accordion__content{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .accordion__content-left .accordion__content-item:last-child{
+        border-bottom: 1px solid grey;
+    }
+    .accordion__content-item{
+        padding: 48px 0;
+    }
+}

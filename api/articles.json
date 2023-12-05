@@ -1,0 +1,74 @@
+[
+    {
+        "publicationDate": "September 1, 2022",
+        "title": "Six inspiring New York young architects you should be following",
+        "img": "young-architects.jpeg",
+        "blogPostImg": "future-home.jpeg",
+        "blogPostSubtitle": "Discover the fresh perspectives and groundbreaking work of a new generation of architects shaping the future of New York City.",
+        "subtitle": "Explore the innovative work of emerging architects in the vibrant landscape of New York City.",
+        "author": "Andy Smith",
+        "readTime": "5 min read",
+        "category": "design",
+        "id": 1
+    },
+    {
+        "publicationDate": "August 15, 2022",
+        "title": "8 types of trendy Architectural styles for your future home design",
+        "img": "future-home.jpeg",
+        "blogPostImg": "design-trends.jpeg",
+        "blogPostSubtitle": "Uncover the latest architectural styles that will shape the future of home design, offering inspiration for your dream home.",
+        "subtitle": "Discover the latest trends in architectural styles that will redefine the future of home design and aesthetics.",
+        "author": "Mike Warren",
+        "readTime": "10 min read",
+        "category": "design",
+        "id": 2
+    },
+    {
+        "publicationDate": "January 17, 2023",
+        "title": "Interior design trends 2022 - The 25 top looks for the new year and beyond",
+        "img": "design-trends.jpeg",
+        "blogPostImg": "useful-research.jpeg",
+        "blogPostSubtitle": "Delve into the world of interior design with a curated list of the 25 most captivating trends that will define homes in 2022 and beyond.",
+        "subtitle": "Dive into the world of interior design with the 25 most captivating trends that will shape homes in 2022 and beyond.",
+        "author": "John Carter",
+        "readTime": "5 min read",
+        "category": "trends",
+        "id": 3
+    },
+    {
+        "publicationDate": "March 8, 2023",
+        "title": "18 useful online research resources for student architects",
+        "img": "useful-research.jpeg",
+        "blogPostImg": "architectural-trends.jpeg",
+        "blogPostSubtitle": "Empower your architectural studies with a comprehensive list of 18 essential online resources to enhance your research and knowledge.",
+        "subtitle": "Empower your architectural studies with 18 essential online resources to enhance your research and knowledge.",
+        "author": "Andy Smith",
+        "readTime": "15 min read",
+        "category": "resources",
+        "id": 4
+    },
+    {
+        "publicationDate": "November 11, 2022",
+        "title": "5 Architectural trends that is worth knowing about in 2022",
+        "img": "architectural-trends.jpeg",
+        "blogPostImg": "emerging-trends.jpeg",
+        "blogPostSubtitle": "Stay ahead of the curve by exploring the architectural trends that are reshaping the industry in 2022 and beyond.",
+        "subtitle": "Stay ahead of the curve by exploring the architectural trends that are reshaping the industry in 2022 and beyond.",
+        "author": "John Carter",
+        "readTime": "10 min read",
+        "category": "trends",
+        "id": 5
+    },
+    {
+        "publicationDate": "December 19, 2022",
+        "title": "Emerging trends that will shape the future of architecture design",
+        "img": "emerging-trends.jpeg",
+        "blogPostImg": "future-home.jpeg",
+        "blogPostSubtitle": "Get insights into emerging trends that promise to shape the future of architecture, providing a glimpse into the possibilities that lie ahead.",
+        "subtitle": "Empower your architectural studies with 18 essential online resources to enhance your research and knowledge.",
+        "author": "John Carter",
+        "readTime": "5 min read",
+        "category": "trends",
+        "id": 6
+    }
+]

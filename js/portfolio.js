@@ -1,29 +1,10 @@
-const projects = [
-    {
-      date: "June 23, 2021",
-      location: "New York, NY",
-      name: "House architecture design in Manhattan, New York",
-      img: "house-in-manhattan.jpeg",
-    },
-    {
-      date: "April 15, 2021",
-      location: "New York, NY",
-      name: "Interior design in Brooklyn Heights, New York",
-      img: "design-in-blooklyn.jpeg",
-    },
-    {
-      date: "September 2, 2022",
-      location: "New York, NY",
-      name: "Offices architecture design in Chelsea, New York",
-      img: "offices-in-chelsea.jpeg",
-    },
-    {
-      date: "March 8, 2023",
-      location: "New York, NY",
-      name: "Building design in Manhattan, New York",
-      img: "building-in-manhattan.jpeg",
-    },
-  ];
+document.addEventListener("partialsLoaded", async () => {
+    
+  async function fetchData() {
+      const response = await fetch('api/projects.json');
+      return await response.json();
+  }
+  const projects = await fetchData()
   
   const projectsContainer = document.getElementById('projectCarsContainer');
   
@@ -35,7 +16,7 @@ const projects = [
       projectDiv.className = 'portfolio-card';
   
       projectDiv.innerHTML = `
-        <a href="portfolio-single.html" class="card-link">
+        <a href="portfolio-single.html?id=${project.id}" class="card-link">
           <div class="portfolio-card-img image-container">
             <img class="img-fluid" src="img/${project.img}" alt="${project.img}">
           </div>
@@ -52,3 +33,4 @@ const projects = [
   }
   
   displayProjects(projects);
+});

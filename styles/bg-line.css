@@ -1,0 +1,91 @@
+.bg-lines{
+    display: none;
+}
+
+.bg-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1243px;;
+    /* overflow: hidden; */
+    position: absolute;
+
+}
+
+
+.bg-line {
+    width: 1px;
+    height: 100%;
+    background-color: rgba(123, 123, 123, 0.527);
+    position: absolute;
+    z-index: -999;
+    
+    
+}
+
+.bg-line:nth-child(1){
+    animation: moveLeftLineOn75 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;  
+}
+.bg-line:nth-child(2){
+    animation: moveLeftLineOn50 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+.bg-line:nth-child(3){
+    animation: moveRightLineOn75 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+.bg-line:nth-child(4){
+    animation: moveRightLineOn50 0.06s linear forwards, changeColor 1s linear forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes moveLeftLineOn75 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10vw);
+    }
+}
+
+@keyframes moveRightLineOn75 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-12vw);
+    }
+}
+
+@keyframes moveLeftLineOn50 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-28vw);
+    }
+}
+
+@keyframes moveRightLineOn50 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(26vw);
+    }
+}     
+@keyframes changeColor {
+    0% {
+        background-color: rgba(45, 45, 45, 0.215);
+    }
+    90% {
+        background-color: rgba(55, 55, 55, 0.215);
+    }
+    100% {
+        background-color: #e6e6e6; /* Сірий колір тексту в кінці анімації */
+    }
+}

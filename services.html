@@ -7,49 +7,26 @@
         <link rel="stylesheet" href="styles/index.css">
 
     </head>
-    <header>
-        <div class="header">
-            <nav class="header__nav">
-                <div class="header__nav-logo">
-                    <img src="img/logo.svg" alt="logo">
-                </div>
-                <div class="header__menu">
-                    <ul class="header__nav-list">
-                        <li><a class="nav-list__link" href="index.html">Home</a></li>
-                        <li><a class="nav-list__link" href="about.html">About</a></li>
-                        <li><a class="nav-list__link" href="services.html">Services</a></li>
-                        <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-list__link" href="blog.html">Blog</a></li>
-                        <li><a class="nav-list__link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
-                    </ul>
-                </div>
-                <div class="header__nav-btn">
-                    <a href="#" class="buttons dark-button">Get in touch</a>
-                </div>
-                <div class="header__menu-btn hamburger">
-                    <div class="line first"></div>
-                    <div class="line middle"></div>
-                    <div class="line last"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
     <body>
-        <section class="services">
-            <div class="services__container container">
-                <div class="services__title">
-                    <h2>Our services</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, quos eaque explicabo quia ex temporibus nulla officia aliquid totam, asperiores illum mollitia nemo dolores sint eius ipsa possimus delectus dicta! </p>
+        <section data-include="bg-lines.partial.html"></section>
+        <main>
+            <header data-include="header-nav.partial.html"></header>
+            <section class="services">
+                <div class="services__container container">
+                    <div class="services__title">
+                        <h2>Our services</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, quos eaque explicabo quia ex temporibus nulla officia aliquid totam, asperiores illum mollitia nemo dolores sint eius ipsa possimus delectus dicta! </p>
+                    </div>
+                    <div id="serviceCarsContainer" class="service-cards-container">
+                    </div>
                 </div>
-                <div id="serviceCarsContainer" class="service-cards-container">
-                   
-                </div>
-            </div>
-        </section>
-        <section data-include="footer.partial.html"></section>
+            </section>
+            <section data-include="footer.partial.html"></section>
+        </main>
 
         <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
+        <script src="js/bg-lines.js"></script>
         <script src="js/header-nav.js"></script>
         <script src="js/service.js"></script>
         

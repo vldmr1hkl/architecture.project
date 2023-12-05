@@ -4,99 +4,79 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>blog</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/index.css">
 
     </head>
-    <header>
-        <div class="header">
-            <nav class="header__nav">
-                <div class="header__nav-logo">
-                    <img src="img/logo.svg" alt="logo">
+    <body>
+        <section data-include="bg-lines.partial.html"></section>
+        <main>
+            <div class="section-wrapper">
+                <header data-include="header-nav.partial.html"></header>
+                <section class="blog-post__hero">
+                    <div class="blog-post__hero-title">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                    <div class="blog-post__hero-img-wrapper">
+                    </div>
+                </section>
+            </div>
+            <section class="blog-post">
+                <div class="blog-post-info-container">
+                    <div class="blog-post-info">
+                        <p class="blog-post__label">Written by</p>
+                        <p id="articleAuthor" class="blog-post__value"></p>
+                    </div>
+                    <div class="blog-post-info">
+                        <p class="blog-post__label">Published on</p>
+                        <p id="articlePublicationDate" class="blog-post__value"></p>
+                    </div>
+                    <div class="blog-post-info">
+                        <p class="blog-post-info__label">Read time</p>
+                        <p id="articleReadTime" class="blog-post-info__value"></p>
+                    </div>
+                    <div class="blog-post-info">
+                        <p class="blog-post-info__label">Category</p>
+                        <p id="articleCategory" class="blog-post-info__value"></p>
+                    </div>
                 </div>
-                <div class="header__menu">
-                    <ul class="header__nav-list">
-                        <li><a class="nav-list__link" href="index.html">Home</a></li>
-                        <li><a class="nav-list__link" href="about.html">About</a></li>
-                        <li><a class="nav-list__link" href="services.html">Services</a></li>
-                        <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav-list__link" href="blog.html">Blog</a></li>
-                        <li><a class="nav-list__link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
-                    </ul>
-                </div>
-                <div class="header__nav-btn">
-                    <a href="#" class="buttons dark-button">Get in touch</a>
-                </div>
-                <div class="header__menu-btn hamburger">
-                    <div class="line first"></div>
-                    <div class="line middle"></div>
-                    <div class="line last"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <section class="blog-post__hero">
-        <div class="blog-post__hero-title">
-            <h1>8 types of trendy architectural styles for your future home design</h1>
-            <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit in voluptate velit esse.</p>
-        </div>
-        <div class="blog-post__hero-img-wrapper">
-            <img src="img/future-home.jpeg">
-        </div>
-    </section>
-    <section class="blog-post">
-        <div class="blog-post-info-container">
-            <div class="blog-post-info">
-                <p class="blog-post__label">Client</p>
-                <p class="blog-post__value">John Carter</p>
-            </div>
-            <div class="blog-post-info">
-                <p class="blog-post__label">Date</p>
-                <p class="blog-post__value">June 2021</p>
-            </div>
-            <div class="blog-post-info">
-                <p class="blog-post-info__label">Location</p>
-                <p class="blog-post-info__value">New York, NY</p>
-            </div>
-            <div class="blog-post-info">
-                <p class="blog-post-info__label">Service</p>
-                <p class="blog-post-info__value">Architecture design</p>
-            </div>
-        </div>
-        <h2>Interesting architecture trends</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit obortis arcu enim urna adipiscing praesent velit viverra. Sit semper lorem eu cursus vel hendrerit elementum orbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis egestas.</p>
-        <ol>
-            <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor.</li>
-            <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
-            <li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.</li>
-            <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
-        </ol>
-        <h3>Why are these trends coming back again?</h3>
-        <p>Vitae congue eu consequat ac felis lacerat vestibulum lectus mauris ultrices ursus sit amet dictum sit amet justo donec enim diam. Porttitor lacus luctus accumsan tortor posuere raesent tristique magna sit amet purus gravida quis blandit turpis.</p>
-        <figure>
-            <div>
-                <img>
-            </div>
-            <figcaption>Odio facilisis mauris sit amet massa vitae tortor.</figcaption>
-        </figure>
-        <h4>What trends do we expect to start growing in the coming future?</h4>
-        <p>At risus viverra adipiscing at in tellus integer feugiat nisl pretium fusce id velit ut tortor sagittis orci a scelerisque purus semper eget at lectus urna duis convallis porta nibh venenatis cras sed felis eget. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl donec pretium vulputate sapien nec sagittis aliquam nunc lobortis mattis aliquam faucibus purus in.</p>
-        <ul>
-            <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor.</li>
-            <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
-            <li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.</li>
-            <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
-        </ul>
-        <h5>Why is important to stay up to date with the architecture trends?</h5>
-        <p>Nisi quis eleifend quam adipiscing vitae liquet bibendum enim facilisis gravida neque elit euismod in pellentesque massa placerat olutpat lacus laoreet non curabitur gravida. Odio aenean sed adipiscing diam donec adipiscing tristique risus met est placerat in egestas erat imperdiet sed euismod nisi.</p>
-        <h6>What is your new favorite architecture trend?</h6>
-        <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendumelis donec et odio pellentesque diam volutpat commodo sed egestas liquam sem fringilla ut morbi tincidunt augue interdum velit euismod. Eu tincidunt tortor aliquam nulla facilisi enean sed adipiscing diam donec adipiscing ut lectus arcu bibendum at varius vel pharetra nibh venenatis cras sed felis eget.</p>
-    </section>
-    
+                <h2>Interesting architecture trends</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit obortis arcu enim urna adipiscing praesent velit viverra. Sit semper lorem eu cursus vel hendrerit elementum orbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis egestas.</p>
+                <ol>
+                    <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor.</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
+                    <li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
+                </ol>
+                <h3>Why are these trends coming back again?</h3>
+                <p>Vitae congue eu consequat ac felis lacerat vestibulum lectus mauris ultrices ursus sit amet dictum sit amet justo donec enim diam. Porttitor lacus luctus accumsan tortor posuere raesent tristique magna sit amet purus gravida quis blandit turpis.</p>
+                <figure>
+                    <div class="blog-post-img-wrapper">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+                <h4>What trends do we expect to start growing in the coming future?</h4>
+                <p>At risus viverra adipiscing at in tellus integer feugiat nisl pretium fusce id velit ut tortor sagittis orci a scelerisque purus semper eget at lectus urna duis convallis porta nibh venenatis cras sed felis eget. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl donec pretium vulputate sapien nec sagittis aliquam nunc lobortis mattis aliquam faucibus purus in.</p>
+                <ul>
+                    <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor.</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
+                    <li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti.</li>
+                </ul>
+                <h5>Why is important to stay up to date with the architecture trends?</h5>
+                <p>Nisi quis eleifend quam adipiscing vitae liquet bibendum enim facilisis gravida neque elit euismod in pellentesque massa placerat olutpat lacus laoreet non curabitur gravida. Odio aenean sed adipiscing diam donec adipiscing tristique risus met est placerat in egestas erat imperdiet sed euismod nisi.</p>
+                <h6>What is your new favorite architecture trend?</h6>
+                <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendumelis donec et odio pellentesque diam volutpat commodo sed egestas liquam sem fringilla ut morbi tincidunt augue interdum velit euismod. Eu tincidunt tortor aliquam nulla facilisi enean sed adipiscing diam donec adipiscing ut lectus arcu bibendum at varius vel pharetra nibh venenatis cras sed felis eget.</p>
+            </section>
+        </main>
     <body>
 
 
-        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+        <script src="https://kit.fontawesome.com/b1a0a2e4db.js" crossorigin="anonymous"></script>
+        <script src="js/header-nav.js"></script>
+        <script src="js/bg-lines.js"></script>
+        <script src="js/blog-post.js"></script>
         
     </body>
 </html>

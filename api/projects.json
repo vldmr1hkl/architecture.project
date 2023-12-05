@@ -1,0 +1,54 @@
+[
+    {
+      "date": "June 23, 2021",
+      "location": "New York, NY",
+      "name": "House architecture design in Manhattan, New York",
+      "img": "house-in-manhattan.jpeg",
+      "imgConcept": "concert-building-in-manhattan.webp",
+      "imgFinal": "final-building-in-manhattan.jpeg",
+      "client": "John Carter",
+      "id": 1,
+      "description": "A stunning architectural design for a private residence in Manhattan, featuring modern aesthetics and innovative space utilization.",
+      "service": "Architecture design",
+      "additional": "The design incorporates sustainable materials and energy-efficient solutions. It also includes cutting-edge smart home technology."
+    },
+    {
+      "date": "April 15, 2021",
+      "location": "New York, NY",
+      "name": "Interior design in Brooklyn Heights, New York",
+      "img": "design-in-blooklyn.jpeg",
+      "imgConcept": "concept-design-in-blooklyn.webp",
+      "imgFinal": "final-design-in-blooklyn.jpeg",
+      "client": "Ray Wallace",
+      "id": 2,
+      "description": "An interior design project showcasing sophisticated and elegant elements for a residence in Brooklyn Heights.",
+      "service": "Interior design",
+      "additional": "The interior features custom-made furniture and state-of-the-art lighting solutions. Sustainable materials were used in the design."
+    },
+    {
+      "date": "September 2, 2022",
+      "location": "New York, NY",
+      "name": "Offices architecture design in Chelsea, New York",
+      "img": "offices-in-chelsea.jpeg",
+      "imgConcept": "concept-office-design.jpeg",
+      "imgFinal": "final-office-design.jpeg",
+      "client": "Nettie Sharp",
+      "id": 3,
+      "description": "Architectural design for modern office spaces in the vibrant neighborhood of Chelsea, New York.",
+      "service": "Exterior design",
+      "additional": "The office design emphasizes collaborative workspaces and sustainable design principles. It includes rooftop green spaces for employees."
+    },
+    {
+      "date": "March 8, 2023",
+      "location": "New York, NY",
+      "name": "Building design in Manhattan, New York",
+      "img": "building-in-manhattan.jpeg",
+      "imgConcept": "concert-building-in-manhattan.webp",
+      "imgFinal": "final-building-in-manhattan.jpeg",
+      "client": "Kimberly Mcguire",
+      "id": 4,
+      "description": "A visionary building design contributing to the iconic skyline of Manhattan, harmonizing aesthetics and functionality.",
+      "service": "Architecture design",
+      "additional": "The building design incorporates smart technology for energy management and security. It features a LEED-certified sustainable architecture."
+    }
+]

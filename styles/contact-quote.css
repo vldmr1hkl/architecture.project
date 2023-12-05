@@ -1,0 +1,61 @@
+.contact-quote{
+    padding: 74px 0;
+    text-align: center;
+    
+}
+.contact-quote-title{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+.contact-quote-buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-quote-buttons .buttons{
+    filter: invert(1);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-quote{
+        padding: 115px 0;
+    }
+    .contact-quote-title{
+        margin-bottom: 60px;
+        max-width: 557px;
+    }
+    .contact-quote-buttons{
+        flex-direction: row;
+        max-width: 557px;
+    }
+    .contact-quote-buttons div{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .contact-quote{
+        padding: 144px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact-quote-title{
+        text-align: left;
+        margin: 0;
+        margin-right: 30px;
+        max-width: 557px;
+    }
+    .contact-quote-buttons{
+        flex-direction: row;
+        gap: 28px;
+        max-width: 557px;
+        width: 100%;
+        margin: 0;
+    }
+    .contact-quote-buttons div{
+        width: 50%;
+    }
+}

@@ -1,35 +1,10 @@
-const services = [
-    {
-      name: "Architectural Design",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "architecture-design.jpeg",
-    },
-    {
-      name: "interior Design",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "interior-design.jpeg",
-    },
-    {
-      name: "Space Planning",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "space-planing.jpeg",
-    },
-    {
-      name: "Decoration",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "decoration.jpeg",
-    },
-    {
-      name: "Exterior Design",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "exterior-design.jpeg",
-    },
-    {
-      name: "Construction",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rem repellat ullam cupiditate nam, earum in aliquam odio mollitia consequatur rerum doloribus voluptatibus sit voluptates fuga totam vitae similique unde?",
-      img: "construction.jpeg",
-    },
-  ];
+document.addEventListener("partialsLoaded", async () => {
+    
+  async function fetchData() {
+      const response = await fetch('api/services.json');
+      return await response.json();
+  }
+  const services = await fetchData()
   
   const servicesContainer = document.getElementById('serviceCarsContainer');
   
@@ -40,7 +15,7 @@ const services = [
       const serviceDiv = document.createElement('div');
   
       serviceDiv.innerHTML = `
-        <a href="#" class="service-card card-link">
+        <a href="service-single.html?id=${service.id}" class="service-card card-link">
           <div class="service-card-img image-container">
             <img class="img-fluid" src="img/${service.img}" alt="${service.img}">
           </div>
@@ -55,3 +30,4 @@ const services = [
   }
   
   displayServise(services);
+});

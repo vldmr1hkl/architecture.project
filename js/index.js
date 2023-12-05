@@ -7,6 +7,9 @@ document.addEventListener("partialsLoaded", () => {
   import("./blog.js");
   import("./portfolio.js");
   import("./service.js")
-  import("./theme-switch.js")
+  import("./theme-switch.js");
+  import("./slick.min.js");
+
+
 });
 
