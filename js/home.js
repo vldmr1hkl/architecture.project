@@ -1,16 +1,14 @@
 document.addEventListener("partialsLoaded", async () => {
-    async function fetchData() {
+    async function fetchProjectsData() {
       const response = await fetch('api/projects.json');
       return await response.json();
     }
     
-    const projects = await fetchData()
+    const projects = await fetchProjectsData()
     const projectsContainer = document.getElementById('projectCarsContainer');
   
     function displayProjects(array) {
       projectsContainer.innerHTML = "";
-  
-      // Використовуємо метод slice для обрізання масиву і вибираємо лише перші два об'єкти
       const slicedProjects = array.slice(0, 2);
   
       slicedProjects.forEach(project => {
@@ -65,6 +63,36 @@ document.addEventListener("partialsLoaded", async () => {
         const scale = 1 + scrollY * 0.00005;
     
         zoomImage.style.transform = `scale(${scale})`;
-      });
+    });
 
-  });
+    async function fetchArticlesData() {
+      const response = await fetch('api/articles.json');
+      return await response.json();
+    }
+    const articles = await fetchArticlesData();
+    const articlesContainer = document.getElementById('blogCarsContainer');
+  
+    function displayArticles(array) {
+      articlesContainer.innerHTML = "";
+      const slicedArticles = array.slice(0, 2);
+  
+      slicedArticles.forEach(article => {
+        const articleDiv = document.createElement('div');
+  
+        articleDiv.innerHTML = `
+          <a class="blog-card card-link" href="blog-post.html?id=${article.id}">
+            <div class="blog-card__img-wrapper">
+              <img src="img/${article.img}" alt="${article.img}">
+            </div>
+            <span>${article.publicationDate} - ${article.readTime}</span>
+            <h3>${article.title}</h3>
+            <p class="border-link">Read more</p>
+          </a>
+        `;
+  
+        articlesContainer.appendChild(articleDiv);
+      });
+    }
+    displayArticles(articles);
+
+});

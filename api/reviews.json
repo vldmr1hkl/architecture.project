@@ -1,0 +1,38 @@
+[
+  {
+    "testimonial": "They did an amazing work for us.",
+    "review": "Their exceptional work truly brought our vision to life. Every detail was carefully considered, resulting in a masterpiece that exceeded our expectations. Working with them was a pleasure, and the final outcome speaks volumes about their talent and dedication.",
+    "source": "Architecture X Webflow Template",
+    "img": "final-design-in-blooklyn.jpeg",
+    "author": "Kathie Corl",
+    "location": "Brooklyn, New York",
+    "avatar": "kathie-corl.webp"
+  },
+  {
+    "testimonial": "Their work exceeded our expectations!",
+    "review": "We were blown away by the quality of their work. From concept to execution, they demonstrated a level of expertise that goes beyond the ordinary. The attention to detail and commitment to excellence were evident throughout the entire process. A truly outstanding team!",
+    "source": "Architecture X Webflow Template",
+    "img": "hall.jpeg",
+    "author": "John Smith",
+    "location": "Los Angeles, California",
+    "avatar": "john-smith.jpeg"
+  },
+  {
+    "testimonial": "Absolutely outstanding!",
+    "review": "Their creative brilliance transformed our space into something extraordinary. The perfect blend of aesthetics and functionality. It's clear that they have a deep understanding of design principles. We are thrilled with the end result and highly recommend their services.",
+    "source": "Architecture X Webflow Template",
+    "img": "concept-office-design.jpeg",
+    "author": "Emily Johnson",
+    "location": "Chicago, Illinois",
+    "avatar": "emily-johnson.jpeg"
+  },
+  {
+    "testimonial": "Exceptional work from a talented team!",
+    "review": "Working with this team was a fantastic experience. Their ability to turn ideas into reality is truly impressive. They not only met our expectations but surpassed them with innovative solutions and a keen eye for detail. Highly skilled and professional.",
+    "source": "Architecture X Webflow Template",
+    "img": "concert-building-in-manhattan.webp",
+    "author": "Michael Chang",
+    "location": "San Francisco, California",
+    "avatar": "michael-chang.jpeg"
+  }
+]

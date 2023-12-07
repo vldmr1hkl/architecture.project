@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>portfolio</title>
+        <title>service-single</title>
         <link rel="stylesheet" href="styles/index.css">
 
     </head>
@@ -13,7 +13,7 @@
             <header data-include="header-nav.partial.html"></header>
             <section class="service-hero">
                 <div class="service-hero__title">
-                    <h2></h2>
+                    <h1></h1>
                     <p></p>
                 </div>
                 <div class="service-hero__img-wrapper">
@@ -26,11 +26,25 @@
                     <ul id="additionalInfo"></ul>
                     <h4>What's included in this service?</h4>
                     <p id="whatServiceIncluded"></p>
+                    <a class="buttons dark-button" href="contact.html">Get in touch
+                        <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+                    </a>
                 </section>
-            </div>    
-
-
-
+            </div> 
+            <section data-include="review.partial.html">
+            </section> 
+            <div class="section-wrapper">
+                <section class="service-form">
+                    <div class="service-form__title">
+                        <h2>Get a free project quote today.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lobortis arcu enim praesent velit viverra.</p>
+                        <h3>Prefer to reach out directly?</h3>
+                        <a href="tel:(123)456-7890"><i class="fa-solid fa-phone"></i>(123)456-7890</a>
+                        <a href="mailto:contact@architecturefolio.com"><i class="fa-solid fa-envelope"></i>contact@architecturefolio.com</a>
+                    </div>
+                    <div data-include="form.partial.html"></div>
+                </section>
+            </div>
             <section data-include="footer.partial.html"></section>
 
 
@@ -39,5 +53,6 @@
             <script src="js/bg-lines.js"></script>
             <script src="js/header-nav.js"></script>
             <script src="js/service-single.js"></script>
+            <script src="js/review.js"></script>
     </body>
 </html>

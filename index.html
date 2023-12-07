@@ -10,39 +10,7 @@
     <body>
         <section data-include="bg-lines.partial.html"></section>
         <main>
-            <header>
-                <div class="header">
-                    <nav class="header__nav">
-                        <div class="header__nav-logo">
-                            <img id="headerLogo" src="img/logo.svg" alt="logo">
-                        </div>
-                        <div class="header__menu">
-                            <ul class="header__nav-list">
-                                <li><a class="nav-list__link" href="index.html">Home</a></li>
-                                <li><a class="nav-list__link" href="about.html">About</a></li>
-                                <li><a class="nav-list__link" href="services.html">Services</a></li>
-                                <li><a class="nav-list__link" href="portfolio.html">Portfolio</a></li>
-                                <li><a class="nav-list__link" href="blog.html">Blog</a></li>
-                                <li><a class="nav-list__link" href="contact.html">Contact</a></li>
-                                <li><a class="nav-list__link nav-list__link-btn buttons dark-button" href="contact.html">Get in touch</a></li>
-                            </ul>
-                        </div>
-                        <div class="header__nav-btn">
-                            <a href="#" class="buttons dark-button">Get in touch</a>
-                        </div>
-                        <div class="theme-switcher">
-                            <div class="button content" id="dark-mode-button"></div>
-                            <div class="button content" id="light-mode-button"></div>
-                        </div>
-                        <div class="header__menu-btn hamburger">
-                            <div class="line first"></div>
-                            <div class="line middle"></div>
-                            <div class="line last"></div>
-                        </div>
-                    </nav>
-                </div>
-            </header>
-        
+            <header data-include="header-nav.partial.html"></header>
             <div class="backgroung-wrapper">
                 <section class="home-hero">
                     <div class="home-hero__title">
@@ -50,13 +18,14 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci, volutpat vel proin mattis id suspendisse vel egestas.</p>
                     </div>
                     <div class="home-hero__buttons">
-                        <div>
-                            <a class="buttons dark-button" href="#">Get in touch
+                        <div class="home-hero__buttons-left">
+                            <a class="buttons dark-button" href="contact.html">Get in touch
                                 <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
                             </a>
+                            <a class="buttons light-button" href="services.html">Browse servises</a>
                         </div>
-                        <div>
-                            <a class="buttons light-button" href="#">Browse servises</a>
+                        <div class="home-hero__buttons-right">
+                            <a href="#homeService" class="round-button"><i class="fa-solid fa-arrow-down-long"></i></a>
                         </div>
                     </div>
                     <div class="home-hero__img-wrapper">
@@ -64,12 +33,10 @@
                     </div>
                 </section>
             </div>
-
-            <div class="section-wrapper">
+            <div id="homeService" class="section-wrapper">
                 <section data-include="services-slider.partial.html">
                 </section>
             </div>
-
             <section class="about-firm">
                 <div class="about-firm__img-wrapper">
                     <img src="img/about-firm-backgroung.jpeg">
@@ -81,31 +48,27 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cupiditate officiis. Sed quod similique aliquam nostrum modi, impedit iste consequatur alias doloribus dolorem praesentium eos officiis quia fuga, nihil quidem.</p>
                         </div>
                         <div class="about-firm-button">
-                            <a href="#" class="buttons dark-button">Get in touch
+                            <a href="contact.html" class="buttons dark-button">Get in touch
                                 <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
-
             <div class="section-wrapper">
                 <section data-include="contact-quote.partial.html">
                 </section>
             </div>
-
-
             <section class="home-portfolio">
                 <div class="home-portfolio-title">
                     <h2>Our portfolio</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit netus praesent eu orci, volutpat vel proin sit.</p>
                 </div>
                 <div id="projectCarsContainer" class="portfolio-cards-container">
-                   
                 </div>
                 <div class="home-portfolio-buttons">
                     <div>
-                        <a class="buttons dark-button" href="">Get in touch
+                        <a class="buttons dark-button" href="contact.html">Get in touch
                             <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
                         </a>
                     </div>
@@ -114,56 +77,47 @@
                     </div>
                 </div>
             </section>
-            
             <div class="section-wrapper">
                 <section class="video-section">
                     <div class="video-section__video-wrapper">
                         <div class="video-section__close-button"></div>
                         <iframe src="https://www.youtube.com/embed/oyA7Ucnmje4?si=MO6vre-MOAYeFKtL" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
                     </div>
-
                     <div class="video-section__open-button">
                         <img src="img/play-btn.svg" alt="play-btn">
                     </div>
-
                     <div class="video-section__img-wrapper">
-                        <img class="img-fluid" src="img/poster-for-video.jpeg" alt="poster for video">
+                        <img src="img/poster-for-video.jpeg" alt="poster for video">
                     </div>
-
                     <div class="video-section-info">
                         <h2>Take a look at our most recent project</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, corporis ipsum earum nulla quos obcaecati nihil dolor similique laboriosam quo!</p>
-                        <a href="#" class="custom-button">Get in touch</a>
+                        <a href="contact.html" class="custom-button">Get in touch
+                            <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </section>
             </div>
-
-            <section class="client-feedback container">
-                <h2>Wts</h2>
+            <section data-include="review.partial.html">
             </section>
-
-           
-            
-
-          
-
-            
-
+            <div class="section-wrapper">
+                <section class="home-blog">
+                    <div class="home-blog__title">
+                        <h2>News & Articles</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitetus praesent eu orci, volutpat vel proin mattisol.</p>
+                    </div>
+                    <div id="blogCarsContainer" class="blog-cards-container"></div>
+                </section>
+            </div>
             <section data-include="footer.partial.html">
             </section>
-            
-
-            
-
-
-            
         </main>
 
         <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
         <script src="js/bg-lines.js"></script>
         <script src="js/header-nav.js"></script>
-        <script src="js/buttons.js"></script>
         <script src="js/home.js"></script>
+        <script src="js/review.js"></script>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

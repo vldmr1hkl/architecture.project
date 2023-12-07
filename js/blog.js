@@ -28,7 +28,7 @@ document.addEventListener("partialsLoaded", async () => {
           <span>${article.publicationDate} - ${article.readTime} min read</span>
           <h3>${article.title}</h3>
           <p>${article.subtitle}</p>
-          <p class="border-link text-color-hover">Read more</p>
+          <p class="border-link">Read more</p>
         </div>
       </a>
       `;
@@ -81,7 +81,7 @@ document.addEventListener("partialsLoaded", async () => {
           </div>
           <span>${article.publicationDate} - ${article.readTime} min read</span>
           <h3>${article.title}</h3>
-          <p class="border-link text-color-hover">Read more</p>
+          <p class="border-link">Read more</p>
         </a>
         `;
   

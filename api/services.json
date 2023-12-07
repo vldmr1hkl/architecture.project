@@ -1,7 +1,7 @@
 [
   {
     "name": "Architectural Design",
-    "description": "Creating innovative and functional architectural designs tailored to your unique vision. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Creating innovative and functional architectural designs tailored to your unique vision.",
     "img": "architecture-design.jpeg",
     "id": 1,
     "aboutService": "Our architectural design services are a collaborative journey where we partner with you to turn your dreams into tangible structures. We prioritize open communication and active client involvement throughout the design process, ensuring that the final result not only meets but exceeds your expectations. From the initial concept to the final blueprint, we strive for excellence in every detail.",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Interior Design",
-    "description": "Transforming interiors into captivating and harmonious spaces that reflect your style. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Transforming interiors into captivating and harmonious spaces that reflect your style. Lorem ipsum.",
     "img": "interior-design.jpeg",
     "id": 2,
     "aboutService": "Our interior design services are all about creating environments that tell your story. We delve into understanding your lifestyle, preferences, and aspirations to curate interiors that resonate with you. Our team of experienced designers brings creativity and functionality together, ensuring that your space not only looks beautiful but also serves its purpose seamlessly.",

@@ -11,44 +11,42 @@
     <body>
         <section data-include="bg-lines.partial.html"></section>
         <main>
-        <header data-include="header-nav.partial.html"></header>
-        <section id="blogHero" class="blog-hero">
-            <h1>News & Articles</h1>
-        </section>
-
-        <div class="section-wrapper">
-            <section class="subscribe">
-                <div class="subscribe-title">
-                    <h2>Subscribe to our newsletter</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim laudantium nihil ea corrupti obcaecati neque, iure dolore pariatur itaque rem quidem animi eius.</p>
+            <header data-include="header-nav.partial.html"></header>
+            <section id="blogHero" class="blog-hero">
+                <h1>News & Articles</h1>
+            </section>
+            <div class="section-wrapper">
+                <section class="subscribe">
+                    <div class="subscribe-title">
+                        <h2>Subscribe to our newsletter</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim laudantium nihil ea corrupti obcaecati neque, iure dolore pariatur itaque rem quidem animi eius.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form>
+                            <input class="" type="email" name="email" placeholder="Enter your email">
+                            <div class="subscribe-form-button">
+                                <a href="#" class="formButton">Subscribe</a>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <section class="blog-posts container">
+                <div class="posts">
+                    <div class="posts-title">
+                        <h2>Latest post</h2>
+                    </div>
+                    <div class="posts-category">
+                        <a href="blog-post.html" data-category="all">All</a>
+                        <a href="blog-post.html" data-category="design">Design</a>
+                        <a href="blog-post.html" data-category="resources">Resources</a>
+                        <a href="blog-post.html" data-category="trends">Trends</a>
+                    </div>
                 </div>
-                <div class="subscribe-form">
-                    <form>
-                        <input class="" type="email" name="email" placeholder="Enter your email">
-                        <div class="subscribe-form-button">
-                            <a href="#" class="formButton">Subscribe</a>
-                        </div>
-                    </form>
+                <div id="blogCarsContainer" class="blog-cards-container"> 
                 </div>
             </section>
-        </div>
-
-        <section class="blog-posts container">
-            <div class="posts">
-                <div class="posts-title">
-                    <h2>Latest post</h2>
-                </div>
-                <div class="posts-category">
-                    <a href="blog-post.html" data-category="all">All</a>
-                    <a href="blog-post.html" data-category="design">Design</a>
-                    <a href="blog-post.html" data-category="resources">Resources</a>
-                    <a href="blog-post.html" data-category="trends">Trends</a>
-                </div>
-            </div>
-            <div id="blogCarsContainer" class="blog-cards-container"> 
-            </div>
-        </section>
-        <section data-include="footer.partial.html"></section>
+            <section data-include="footer.partial.html"></section>
         </main>
         
         <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>

@@ -15,13 +15,13 @@ document.addEventListener("partialsLoaded", async () => {
             const serviceDiv = document.createElement('div');
   
                 serviceDiv.innerHTML = `
-                    <a href="#" class="service-card card-link slick-slide">
+                <a href="service-single.html?id=${service.id}" class="service-card card-link slick-slide">
                         <div class="service-card-img image-container">
                             <img class="img-fluid" src="img/${service.img}" alt="${service.img}">
                         </div>
                         <h3>${service.name}</h3>
                         <p>${service.description}</p>
-                        <span class="border-link">View services</span>
+                        <p class="border-link">View services</p>
                     </a>
                 `;
   

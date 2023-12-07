@@ -21,7 +21,7 @@ document.addEventListener("partialsLoaded", async () => {
           </div>
           <h3>${service.name}</h3>
           <p>${service.description}</p>
-          <span class="border-link">View services</span>
+          <p class="border-link">View services</p>
         </a>
       `;
   

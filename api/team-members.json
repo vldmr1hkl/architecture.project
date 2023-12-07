@@ -1,0 +1,53 @@
+[
+    {
+        "name": "John Carter",
+        "position": "Lead Architect",
+        "info": "Highly skilled Lead Architect with extensive experience in designing innovative and functional structures. Known for effective project management and client collaboration. Passionate about bringing architectural visions to life.",
+        "skills": [
+            "Architectural Design",
+            "Project Management",
+            "Client Communication",
+            "3D Modeling",
+            "Construction Oversight"
+        ],
+        "facebookProfile": "https://www.facebook.com/john.carter",
+        "linkedinProfile": "https://www.linkedin.com/in/johncarter/",
+        "twitterProfile": "https://twitter.com/johncarter",
+        "img": "john-carter.jpeg",
+        "id": 1
+    },
+    {
+        "name": "Andy Smith",
+        "position": "Interior Designer",
+        "info": "Creative Interior Designer specializing in transforming spaces into captivating and harmonious environments. Known for expertise in color coordination, furniture selection, and personalized design implementation. Committed to creating spaces that reflect clients' unique styles.",
+        "skills": [
+            "Interior Design",
+            "Space Planning",
+            "Color Coordination",
+            "Furniture Selection",
+            "Client Collaboration"
+        ],
+        "facebookProfile": "https://www.facebook.com/andy.smith",
+        "linkedinProfile": "https://www.linkedin.com/in/andysmith/",
+        "twitterProfile": "https://twitter.com/andysmith",
+        "img": "andy-smith.jpeg",
+        "id": 2
+      },
+      {
+        "name": "Mike Warren",
+        "position": "Construction Manager",
+        "info": "Experienced Construction Manager with a proven track record in project planning, site management, and quality assurance. Skilled in budgeting and cost control, ensuring successful project execution. Committed to safety compliance and delivering high-quality construction projects.",
+        "skills": [
+            "Project Planning",
+            "Site Management",
+            "Budgeting and Cost Control",
+            "Quality Assurance",
+            "Safety Compliance"
+        ],
+        "facebookProfile": "https://www.facebook.com/mike.warren",
+        "linkedinProfile": "https://www.linkedin.com/in/mikewarren/",
+        "twitterProfile": "https://twitter.com/mikewarren",
+        "img": "mike-warren.jpeg",
+        "id": 3
+      }
+]
