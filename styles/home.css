@@ -136,7 +136,7 @@
         top: 50%;
         bottom: 0;
         transform: translateY(-50%);
-        padding: 85px 0 85px 74px;
+        padding: 85px 74px;
         max-width: 585px;
     }
     .about-firm__info h2{
@@ -246,14 +246,16 @@
 
 .video-section-info{
     position: absolute;
-    padding: 0 25px 50px;
+    padding: 50px 25px;
     background-color: black;
     width: 85%;
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
 }
-
+.video-section-info .buttons{
+    margin-top: 25px;
+}
 .video-section__open-button{
     background-color: #ffffff;
     border-radius: 50%;
@@ -323,7 +325,7 @@
     }
 
     .video-section-info{
-        padding: 0 80px 78px;
+        padding: 78px 80px;
     }
 
     .video-section iframe{
@@ -353,11 +355,11 @@
     .video-section-info{
         position: absolute;
         max-width: 574px;
-        padding: 93px 80px 93px 0;
+        padding: 93px 80px;
         background-color: black;
         width: 85%;
         left: 0;
-        top: 50%;
+        top: 53%;
         transform: translateY(-50%);
     }
 

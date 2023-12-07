@@ -134,6 +134,10 @@
     margin-right: 25px;
     padding-bottom: 15px;
 }
+
+.section-wrapper .service-form .dark-button{
+    filter: invert(0);
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .service-form{
         padding-top: 115px;

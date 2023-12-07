@@ -9,9 +9,14 @@
 :root{
     --main-background: #f2f1ee;
     --dark-backgroud: #000000;
-    --main-text-color: #a9a8a8;
+    --white-background: #ffffff;
+    --main-text-color: #6b6b6b;
     --white-text-color: #ffffff;
     --dark-text-color: #000000;
+    --border-link-color: #8d8d8d78;
+    --dark-mode-bg-color: radial-gradient(circle at 84.1% 74.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 92.4%);
+    --dark-mode-bg-section-wrapper: #0000008c;
+    --dark-mode-bg-value: #09090917;
 }
 body{
     background-color: var(--main-background);
@@ -175,14 +180,32 @@ span{
     overflow: hidden;
 }
 
+
+
+
+
+
 .section-wrapper{
     background: var(--dark-backgroud);
-    color: rgb(255, 255, 255);
+    color: var(--white-text-color);
 }
 
-.section-wrapper p.border-link{
-    color: #ffffff;
+.section-wrapper p{
+    color: var(--white-text-color);
 }
+
+.section-wrapper .border-link{
+    color: var(--white-text-color);
+    border-color: var(--main-text-color);
+}
+ 
+.section-wrapper .border-link:after{
+    background-color: var(--white-text-color);
+}
+
+
+
+
 
 .backgroung-wrapper{
     background: linear-gradient(to top, black 50%, transparent 50%);
@@ -282,10 +305,10 @@ i{
 }
 .border-link{
     display: inline-block;
-	border-bottom: 2px solid silver;
+	border-bottom: 2px solid var(--border-link-color);
 	position: relative;
     font-weight: bold;
-    color: #000000;
+    color: var(--dark-text-color);
 }
 .border-link:after {
 	position: absolute;
@@ -294,7 +317,7 @@ i{
     width: 0;
     bottom: -2px;
     height: 2px;
-    background: var(--main-text-color);
+    background: var(--dark-text-color);
     transition: width .3s;
 }
 .card-link:hover .border-link:after{

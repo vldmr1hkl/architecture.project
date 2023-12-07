@@ -72,14 +72,14 @@
     filter: invert(1);
 }
 .dark-mode .section-wrapper{
-    background-color: #0000008c;
+    background-color: var(--dark-mode-bg-section-wrapper);
 }
 .dark-mode ul.header__nav-list.show{
-	background: radial-gradient(circle at 84.1% 74.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 92.4%);
+	background-color: var(--dark-mode-bg-color);
 }
 .dark-mode .values__card{
     filter: invert(1);
-    background-color: #09090917;
+    background-color: var(--dark-mode-bg-value);
     color: black;
 }
 .dark-mode .bg-line{
@@ -89,8 +89,29 @@
     filter: invert(1);
 }
 .dark-mode .contact-form {
-	background-color: #0000008c;
+	background: var(--dark-backgroud);
 }
+
+
+.dark-mode .border-link{
+    color: var(--white-text-color);
+    border-color: var(--main-text-color);
+}
+ 
+.dark-mode .border-link:after{
+    background-color: var(--white-text-color);
+}
+
+.dark-mode .review__user-info{
+	color: var(-white-text-color);
+	background: var(--dark-mode-bg-color);
+}
+
+.dark-mode .about-firm__info{
+	color: var(--white-text-color);
+	background-color: #000000;
+}
+
 .dark-mode .contact-form input,
 .dark-mode .contact-form textarea{
 	background-color: transparent;
