@@ -1,0 +1,97 @@
+.theme-switcher {
+    width: 40px;
+	height: 40px;
+    cursor: pointer;
+}
+
+#dark-mode-button {
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+	transition: all 0.5s ease;
+	width: 40px;
+	height: 40px;
+}
+
+#dark-mode-button::before {
+	content: "";
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	right: -16px;
+	top: -16px;
+	background-color: var(--main-background);
+	border-radius: 50%;
+}
+
+#light-mode-button {
+    display: none;
+	background-color: var(--main-background);
+	position: relative;
+	transform: scale(0.45);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transition: transform 0.5s ease;
+}
+
+#light-mode-button::before {
+	box-shadow: var(--main-background) 0px -40px 0px, var(--main-background) 0px 40px 0px, var(--main-background) 40px 0px 0px,
+    var(--main-background) -40px 0px 0px, var(--main-background) 29px 29px 0px, var(--main-background) -29px 29px 0px,
+    var(--main-background) 29px -29px 0px, var(--main-background) -29px -29px 0px;
+	content: "";
+	width: 15px;
+	height: 15px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	margin: -8px 0px 0px -8px;
+}
+
+.light-mode-bg{
+    background-color: var(--main-background);
+    color: black;
+}
+
+
+
+
+
+.dark-mode{
+    background: radial-gradient(circle at 99.1% 51.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 95.4%);
+    color: white;
+    opacity: 0.8;
+}
+.dark-mode-bg-lines{
+    opacity: 0.09;
+}
+
+
+.dark-mode .header__nav-logo{
+    filter: invert(1);
+}
+.dark-mode .section-wrapper{
+    background-color: #0000008c;
+}
+.dark-mode ul.header__nav-list.show{
+	background: radial-gradient(circle at 84.1% 74.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 92.4%);
+}
+.dark-mode .values__card{
+    filter: invert(1);
+    background-color: #09090917;
+    color: black;
+}
+.dark-mode .bg-line{
+    opacity: 0.08;
+}
+.dark-mode .header__nav-btn{
+    filter: invert(1);
+}
+.dark-mode .contact-form {
+	background-color: #0000008c;
+}
+.dark-mode .contact-form input,
+.dark-mode .contact-form textarea{
+	background-color: transparent;
+}

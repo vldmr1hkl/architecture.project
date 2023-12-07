@@ -4,23 +4,32 @@
 .contact{
     padding-top: 40px;
     padding-bottom: 84px;
+    display: flex;
+    flex-direction: column;
 }
+
 .contact-title{ 
     text-align: center;
     margin-bottom: 35px;
 }
+
 .contact-title h2{
     margin-bottom: 10px;
 }
+
 .contact-form{
     background-color: white;
     padding: 40px 25px 64px;
+    width: 70%;
+    margin: 0 auto;
 }
+
 .contact-form-container{
     display: grid;
     grid-row-gap: 40px;
     grid-template-columns: 1fr;
 }
+
 .input-wrapper input,
 .input-wrapper textarea{
     width: 100%;
@@ -28,14 +37,17 @@
     border: none;
     border-bottom: 1px solid silver;
 }
+
 .input-wrapper label{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
+
 .contact-form-button{
     display: flex;
 }
+
 .contact-form-button a{
     background-color: var(--dark-backgroud);
     color: white;
@@ -59,8 +71,6 @@
     }
     .contact-form{
         padding: 82px 68px 92px;
-        max-width: 906px;
-        margin: 0 auto;
     }
     .input-wrapper label{
         margin-bottom: 16px;
@@ -86,8 +96,6 @@
     }
     .contact-form{
         padding: 98px 103px 110px;
-        max-width: 906px;
-        margin: 0 auto;
     }
     .contact-form-container{
         grid-template-columns: 1fr 1fr;

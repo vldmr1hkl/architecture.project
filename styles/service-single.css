@@ -7,10 +7,13 @@
 }
 
 .service-hero__title{
-
+    max-width: 529px;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 40px;
 }
 
-.service-hero__title h2{
+.service-hero__title h1{
 
 }
 
@@ -28,6 +31,7 @@
 
 .service-hero__img-wrapper{
 
+
 }
 
 .service-hero__img-wrapper img{
@@ -38,25 +42,26 @@
     max-width: 840px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 74px;
+    padding-bottom: 74px;
 
 }
 
-.service-about h3{
-    
-}
+
 
 .service-about p{
-
+    padding-bottom: 32px;
 }
 
-.service-about h4{
-    margin-top: 48px;
 
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .service-hero{
         padding-top: 60px;
+    }
+    .service-about{
+        padding-top: 115px;
+        padding-bottom: 115px;
     }
 
 }
@@ -74,14 +79,16 @@
         width: 100%;
         padding-top: 220px;
         padding-bottom: 220px;
+        text-align: left;
     }
     .service-hero__img-wrapper{
         overflow: hidden;
-        width: 100vw;
+        width: 50%;
     }
     .service-hero__img-wrapper img{
-        max-height: 900px;
+        height: 768px;
         width: 100%;
+        overflow: hidden;
         object-fit: cover;
     }
     .service-about{
@@ -89,4 +96,63 @@
         padding-bottom: 144px;
     }
 
+}
+
+.service-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    padding-bottom: 128px;
+}
+
+.service-form__title{
+    max-width: 430px;
+    padding-bottom: 60px;
+}
+
+.service-form .contact-form{
+    width: 100%;
+}
+
+.service-form__title p{
+    padding-bottom: 58px;
+}
+
+.service-form__title a{
+    display: block;
+    color: var(--main-text-color);
+    transform: translateX(1);
+    transition: transform 0.5s ease;
+}
+
+.service-form__title a:hover{
+    color: var(--white-text-color);
+    transform: translateX(0.3em);
+}
+.service-form__title a i{
+    margin-right: 25px;
+    padding-bottom: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-form{
+        padding-top: 115px;
+        padding-bottom: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .service-form{
+        flex-direction: row;
+        align-items: center;
+        padding-top: 144px;
+        padding-bottom: 250px;
+    }
+    .service-form__title{
+        width: 30%;
+    }
+    
+    .service-form .contact-form{
+        width: 60%;
+    }
 }

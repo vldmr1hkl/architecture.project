@@ -6,6 +6,7 @@
 
 @import "home.css";
 @import "about.css";
+@import "team-single.css";
 
 @import "service.css";
 @import "service-single.css";
@@ -23,3 +24,4 @@
 @import "accordion.css";
 
 @import "slick.css";
+@import "services-slider.css";
