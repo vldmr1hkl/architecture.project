@@ -20,7 +20,7 @@
 .contact-form{
     background-color: white;
     padding: 40px 25px 64px;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -70,6 +70,7 @@
         margin: 0 auto;
     }
     .contact-form{
+        width: 80%;
         padding: 82px 68px 92px;
     }
     .input-wrapper label{
@@ -95,6 +96,7 @@
         margin-bottom: 48px;
     }
     .contact-form{
+        width: 70%;
         padding: 98px 103px 110px;
     }
     .contact-form-container{
