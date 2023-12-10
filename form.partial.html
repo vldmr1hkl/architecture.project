@@ -1,29 +1,43 @@
 <div class="contact-form">
-    <form class="contact-form-container">
+    <form id="contactForm" class="contact-form-container">
         <div class="input-wrapper">
             <label for="name">Name</label>
-            <input type="text" name="name" placeholder="John Carter">
+            <input type="text" name="name" id="nameInput" placeholder="John Carter">
+            <p class="error-message" id="nameError"></p>
         </div>
         <div class="input-wrapper">
             <label for="email">Email</label>
-            <input type="email" name="email" placeholder="email@example.com">
+            <input type="text" name="email" id="emailInput" placeholder="email@example.com">
+            <p class="error-message" id="emailError"></p>
         </div>
         <div class="input-wrapper">
             <label for="phone">Phone number</label>
-            <input type="tel" name="phone" placeholder="(123)-465 7890">
+            <input type="tel" name="phone" id="phoneInput" placeholder="(123)-465 7890">
+            <p class="error-message" id="phoneError"></p>
         </div>
         <div class="input-wrapper">
             <label for="subject">Subject</label>
-            <input type="text" name="subject" placeholder="Ex. Services">
+            <select name="subject" id="subjectInput">
+                <option value="" selected disabled>Select a service</option>
+                <option value="service1">Architecture design</option>
+                <option value="service2">Interior design</option>
+                <option value="service3">Exterior design</option>
+                <option value="service4">Space Planning</option>
+            </select>
+            <p class="error-message" id="subjectError"></p>
         </div>
         <div class="input-wrapper input-wrapper-message">
             <label for="message">Message</label>
-            <textarea name="message" placeholder="Please describe what service ypo are interested in..."></textarea>
+            <textarea name="message" id="messageInput" placeholder="Please describe what service you are interested in..."></textarea>
+            <p class="error-message" id="messageError"></p>
         </div>
         <div class="contact-form-button">
-            <a href="#" class="buttons dark-button">Send message
+            <button type="submit" class="buttons dark-button" id="submitButton">Send message
                 <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
-            </a>
+            </button>
+        </div>
+        <div>
+            <p class="message" id="successfullySend"></p>
         </div>
     </form>
 </div>

@@ -113,6 +113,7 @@
 }
 
 .dark-mode .contact-form input,
+.dark-mode .contact-form select,
 .dark-mode .contact-form textarea{
 	background-color: transparent;
 }

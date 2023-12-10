@@ -10,7 +10,7 @@ document.addEventListener("partialsLoaded", async () => {
     const articleId = urlParams.get('id');
     const selectedArticle = articles.find(article => article.id === parseInt(articleId));
     if (selectedArticle) {
-        document.querySelector('h1').textContent = selectedArticle.title;
+        document.querySelector('h2').textContent = selectedArticle.title;
         document.querySelector('.blog-post__hero-title p').textContent = selectedArticle.subtitle;
 
         const articleImage = document.querySelector('.blog-post__hero-img-wrapper');

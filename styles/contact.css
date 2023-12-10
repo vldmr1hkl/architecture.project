@@ -31,21 +31,27 @@
 }
 
 .input-wrapper input,
-.input-wrapper textarea{
+.input-wrapper textarea,
+select {
     width: 100%;
-    padding-bottom: 16px;
+    padding: 16px 0;
     border: none;
     border-bottom: 1px solid silver;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    color: var(--main-text-color);
 }
 
 .input-wrapper label{
     font-weight: bold;
     display: block;
-    margin-bottom: 10px;
 }
-
+input:focus,
+textarea:focus,
+select:focus{
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+}
 
 .contact-form-button{
     display: flex;
@@ -110,9 +116,6 @@
     }
     .input-wrapper-message{
         grid-column: span 2;
-    }
-    .input-wrapper label{
-        margin-bottom: 16px;
     }
     .contact-form-button{
         display: block;
