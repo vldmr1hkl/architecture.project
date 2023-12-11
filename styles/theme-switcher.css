@@ -91,6 +91,9 @@
 .dark-mode .contact-form {
 	background: var(--dark-backgroud);
 }
+.dark-mode .contact-form-button button{
+	filter: invert(1);
+}
 
 
 .dark-mode .border-link{

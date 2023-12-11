@@ -56,6 +56,9 @@ select:focus{
 .contact-form-button{
     display: flex;
 }
+p.error-message{
+    color: #c84444;
+}
 
 .contact-form-button a{
     background-color: var(--dark-backgroud);
