@@ -14,8 +14,8 @@
     --white-text-color: #ffffff;
     --dark-text-color: #000000;
     --border-link-color: #8d8d8d78;
-    --dark-mode-bg-color: radial-gradient(circle at 84.1% 74.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 92.4%);
-    --dark-mode-bg-section-wrapper: #0000008c;
+    --dark-mode-bg-color: #181818;
+    --dark-mode-bg-section-wrapper: #212121;
     --dark-mode-bg-value: #09090917;
 }
 body{
@@ -191,9 +191,9 @@ span{
     color: var(--white-text-color);
 }
 
-.section-wrapper p{
+/* .section-wrapper p{
     color: var(--white-text-color);
-}
+} */
 
 .section-wrapper .border-link{
     color: var(--white-text-color);

@@ -11,6 +11,7 @@
 	transition: all 0.5s ease;
 	width: 40px;
 	height: 40px;
+	/* transition: all 1s; */
 }
 
 #dark-mode-button::before {
@@ -22,17 +23,18 @@
 	top: -16px;
 	background-color: var(--main-background);
 	border-radius: 50%;
+	transition: all 1s;
 }
 
 #light-mode-button {
     display: none;
 	background-color: var(--main-background);
+	opacity: 0.5;
 	position: relative;
 	transform: scale(0.45);
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	transition: transform 0.5s ease;
 }
 
 #light-mode-button::before {
@@ -55,65 +57,84 @@
 }
 
 
-
-
-
-.dark-mode{
-    background: radial-gradient(circle at 99.1% 51.8%, rgb(50, 50, 50) 39%, rgb(0, 0, 0) 95.4%);
-    color: white;
-    opacity: 0.8;
+body{
+	transition: all 1s;
 }
-.dark-mode-bg-lines{
+
+body.dark-mode{
+	transition: all 1s;
+}
+.dark-mode{
+	background: var(--dark-mode-bg-color);
+    color: #e8e9ebc3;
+}
+.dark-mode .bg-line{
     opacity: 0.09;
 }
 
 
 .dark-mode .header__nav-logo{
     filter: invert(1);
+	opacity: 0.5;
+}
+
+
+.dark-mode .backgroung-wrapper{
+    background: linear-gradient(to top, var(--dark-mode-bg-color) 50%, transparent 50%);
 }
 .dark-mode .section-wrapper{
-    background-color: var(--dark-mode-bg-section-wrapper);
+    background: var(--dark-mode-bg-section-wrapper);
 }
 .dark-mode ul.header__nav-list.show{
-	background-color: var(--dark-mode-bg-color);
-}
-.dark-mode .values__card{
-    filter: invert(1);
-    background-color: var(--dark-mode-bg-value);
-    color: black;
-}
-.dark-mode .bg-line{
-    opacity: 0.08;
-}
-.dark-mode .header__nav-btn{
-    filter: invert(1);
-}
-.dark-mode .contact-form {
-	background: var(--dark-backgroud);
-}
-.dark-mode .contact-form-button button{
-	filter: invert(1);
-}
-
-
-.dark-mode .border-link{
-    color: var(--white-text-color);
-    border-color: var(--main-text-color);
-}
- 
-.dark-mode .border-link:after{
-    background-color: var(--white-text-color);
-}
-
-.dark-mode .review__user-info{
-	color: var(-white-text-color);
 	background: var(--dark-mode-bg-color);
 }
 
-.dark-mode .about-firm__info{
-	color: var(--white-text-color);
-	background-color: #000000;
+.dark-mode .dark-button{
+	background: #3d3d3d;
+	border-color: #3d3d3d;
+	color: #e8e9ebc3;
 }
+
+.dark-mode .light-button{
+	background: #717171;
+	border-color: #717171;
+	color: #e8e9ebc3;
+
+}
+.dark-mode .round-button{
+	border-color: #e8e9ebc3;
+}
+.dark-mode .contact-quote-buttons .buttons,
+.dark-mode .section-wrapper .dark-button{
+	filter: invert(0);
+}
+
+.dark-mode .video-section-info{
+	background: var(--dark-mode-bg-color);
+}
+
+.dark-mode .review__user-info,
+.dark-mode .values__card,
+.dark-mode .project-info-container,
+.dark-mode .contact-form,
+.dark-mode .location-title,
+.dark-mode .about-firm__info{
+	background: var(--dark-mode-bg-section-wrapper);
+}
+
+.dark-mode .values__card img{
+	filter: invert(1);
+}
+.dark-mode .values__card{
+	border-color: #e8e9ebc3;
+}
+.dark-mode .border-link{
+	color: #e8e9ebc3;
+}
+.dark-mode .border-link:after{
+	background-color: #e8e9ebc3;
+}
+
 
 .dark-mode .contact-form input,
 .dark-mode .contact-form select,

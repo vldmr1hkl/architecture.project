@@ -55,8 +55,8 @@ footer{
 
 .footer__social-media a {
     display: inline-block;
-    width: 32px; 
-    height: 31px; 
+    width: 31px; 
+    height: 30px; 
     margin-right: 5px; 
     background-image: url('../img/sprite.jpg'); 
     background-size: 345px 345px;
@@ -65,23 +65,23 @@ footer{
 }
 
 .footer__social-media a:nth-child(1) {
-    background-position: 189px -97px;
+    background-position: 188px -97px;
 }
 
 .footer__social-media a:nth-child(2) {
-    background-position: -264px -203px;
+    background-position: -265px -204px;
 }
 
 .footer__social-media a:nth-child(3) {
-    background-position: -48px -150px;
+    background-position: -49px -151px;
 }
 
 .footer__social-media a:nth-child(4) {
-    background-position: -156px -150px;
+    background-position: -157px -150px;
 }
 
 .footer__social-media a:nth-child(5) {
-    background-position: -48px -203px;
+    background-position: -49px -204px;
 }
 
 .footer__social-media a:nth-child(6) {
