@@ -17,16 +17,32 @@ document.addEventListener("partialsLoaded", () => {
     navMenu.classList.remove("show");
   }));
 
-  darkModeButton.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
+  const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+  if (isDarkMode) {
+    body.classList.add('dark-mode');
     darkModeButton.style.display = 'none';
     lightModeButton.style.display = 'block';
-  });
-
-  lightModeButton.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
+  } else {
+    body.classList.remove('dark-mode');
     lightModeButton.style.display = 'none';
     darkModeButton.style.display = 'block';
+  }
+
+  darkModeButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    darkModeButton.style.display = 'none';
+    lightModeButton.style.display = 'block';
+
+    localStorage.setItem('darkMode', 'true');
+  });
+
+  lightModeButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    lightModeButton.style.display = 'none';
+    darkModeButton.style.display = 'block';
+    
+    localStorage.setItem('darkMode', 'false');
   });
 });
 
