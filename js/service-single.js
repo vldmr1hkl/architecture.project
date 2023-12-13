@@ -12,7 +12,7 @@ document.addEventListener("partialsLoaded", async () => {
             const selectedService = services.find(service => service.id === parseInt(serviceId));
 
             if (selectedService) {
-                document.querySelector('.service-hero__title h1').textContent = selectedService.name;
+                document.querySelector('.service-hero__title h2').textContent = selectedService.name;
                 document.querySelector('.service-hero__title p').textContent = selectedService.description;
                 document.getElementById('aboutService').textContent = selectedService.aboutService;
                 document.getElementById('whatServiceIncluded').textContent = selectedService.whatServiceIncluded;

@@ -18,7 +18,7 @@ document.addEventListener("partialsLoaded", async () => {
         projectDiv.innerHTML = `
           <a href="portfolio-single.html?id=${project.id}" class="card-link">
             <div class="portfolio-card-img image-container">
-              <img class="img-fluid" src="img/${project.img}" alt="${project.img}">
+              <img class="scale" src="img/${project.img}" alt="${project.img}">
             </div>
             <div class="portfolio-card-title">
               <span>${project.date}</span>
@@ -82,7 +82,7 @@ document.addEventListener("partialsLoaded", async () => {
         articleDiv.innerHTML = `
           <a class="blog-card card-link" href="blog-post.html?id=${article.id}">
             <div class="blog-card__img-wrapper">
-              <img src="img/${article.img}" alt="${article.img}">
+              <img class="scale" src="img/${article.img}" alt="${article.img}">
             </div>
             <span>${article.publicationDate} - ${article.readTime}</span>
             <h3>${article.title}</h3>

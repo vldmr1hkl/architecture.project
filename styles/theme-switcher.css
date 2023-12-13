@@ -11,7 +11,6 @@
 	transition: all 0.5s ease;
 	width: 40px;
 	height: 40px;
-	/* transition: all 1s; */
 }
 
 #dark-mode-button::before {
@@ -51,10 +50,7 @@
 	margin: -8px 0px 0px -8px;
 }
 
-.light-mode-bg{
-    background-color: var(--main-background);
-    color: black;
-}
+
 
 
 body{
@@ -109,7 +105,8 @@ body.dark-mode{
 	filter: invert(0);
 }
 
-.dark-mode .video-section-info{
+.dark-mode .video-section-info,
+.dark-mode .section-wrapper .service-form .contact-form{
 	background: var(--dark-mode-bg-color);
 }
 
@@ -136,8 +133,8 @@ body.dark-mode{
 }
 
 
-.dark-mode .contact-form input,
-.dark-mode .contact-form select,
-.dark-mode .contact-form textarea{
+input,
+select,
+textarea{
 	background-color: transparent;
 }

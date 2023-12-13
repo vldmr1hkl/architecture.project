@@ -209,9 +209,13 @@ span{
 
 
 .backgroung-wrapper{
-    background: linear-gradient(to top, black 50%, transparent 50%);
+    background: linear-gradient(to top, black 20%, transparent 20%);
 }
-
+@media only screen and (min-width: 992px){
+    .backgroung-wrapper{
+        background: linear-gradient(to top, black 50%, transparent 50%);
+    }
+}
 
 /* Buttons */
 .buttons{
@@ -295,13 +299,13 @@ i{
   
 
 /* CARDS HOVER ANIMATION */
-.card-link img{
+.card-link .scale{
     transition: transform 0.3s ease-in-out;
 }
 .image-container{
     overflow: hidden;
 }
-.card-link:hover img{
+.card-link:hover .scale{
     transform: scale(1.05);
 }
 .border-link{

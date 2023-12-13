@@ -17,7 +17,7 @@ document.addEventListener("partialsLoaded", async () => {
       serviceDiv.innerHTML = `
         <a href="service-single.html?id=${service.id}" class="service-card card-link">
           <div class="service-card-img image-container">
-            <img class="img-fluid" src="img/${service.img}" alt="${service.img}">
+            <img class="scale" src="img/${service.img}" alt="${service.img}">
           </div>
           <h3>${service.name}</h3>
           <p>${service.description}</p>

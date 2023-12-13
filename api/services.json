@@ -13,7 +13,8 @@
       "Vivamus non tortor in est euismod facilisis.",
       "Ut eget odio at libero accumsan eleifend a vel justo.",
       "Curabitur euismod purus eu nunc congue, id luctus ipsum interdum."
-    ]
+    ],
+    "price": 699
   },
   {
     "name": "Interior Design",
@@ -28,7 +29,8 @@
       "Nunc vel massa ac nulla aliquet hendrerit.",
       "Sed fermentum felis a odio luctus, at aliquam augue consequat.",
       "Donec ut metus at justo tristique tincidunt vel a purus."
-    ]
+    ],
+    "price": 899
   },
   {
     "name": "Space Planning",
@@ -42,7 +44,8 @@
       "Cras vel mauris nec dui facilisis pharetra.",
       "Maecenas et libero sit amet sapien tincidunt fermentum.",
       "Ut convallis justo ac tortor suscipit, vel convallis tellus iaculis."
-    ]
+    ],
+    "price": 1299
   },
   {
     "name": "Decoration",
@@ -58,7 +61,8 @@
       "Nullam nec elit vel velit varius consectetur.",
       "Sed vitae ligula ut neque rhoncus cursus.",
       "Donec imperdiet elit vel urna laoreet, non hendrerit dolor accumsan."
-    ]
+    ],
+    "price": 699
   },
   {
     "name": "Exterior Design",
@@ -72,7 +76,8 @@
       "Duis vel ex eu turpis pellentesque tincidunt ac vel ligula.",
       "Integer dapibus nulla nec justo gravida bibendum.",
       "Pellentesque ac quam nec tortor congue venenatis sit amet et libero."
-    ]
+    ],
+    "price": 1199
   },
   {
     "name": "Construction",
@@ -88,6 +93,7 @@
       "Pellentesque consectetur velit nec urna efficitur, non eleifend est pellentesque.",
       "Morbi consectetur velit at tortor suscipit tincidunt.",
       "Donec bibendum libero vel libero congue, a rhoncus elit vulputate."
-    ]
+    ],
+    "price": 1399
   }
 ]

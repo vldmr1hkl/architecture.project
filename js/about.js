@@ -18,7 +18,7 @@ document.addEventListener("partialsLoaded", async () => {
         teamMemberDiv.innerHTML = `
             <a href="team-single.html?id=${member.id}" class="card-link">
                 <div class="team-member-photo image-container">
-                    <img class="img-fluid" src="img/${member.img}" alt="${member.name}">
+                    <img class="scale" src="img/${member.img}" alt="${member.name}">
                 </div>
                 <div class="team-member-info">
                     <h3 class="text-color-hover">${member.name}</h3>

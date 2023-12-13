@@ -1,0 +1,46 @@
+.service-card{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shop .service-card{
+
+}
+.shop-card-logo{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.shop .service-card-img{
+    padding: 25% 15%;
+    background-color: white;
+    position: relative;
+}
+.shop-card-img-wrapper{
+    padding: 40px 0;
+    background: linear-gradient(to top, black 50%, var(--main-background) 50%);
+}
+.shop-card-img-wrapper img{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.shop-card-img-wrapper h4{
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.shop-card-price{
+    min-width: 136px;
+    position: absolute;
+    top: 4%;
+    right: 17px;
+    background-color: black;
+    border-radius: 30px;
+    padding:16px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

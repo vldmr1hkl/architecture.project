@@ -1,4 +1,4 @@
-header{
+.header{
     position: relative;
     z-index: 1;
 }
@@ -25,6 +25,10 @@ header{
     opacity: 0;
     transition: all 1s;
     text-transform: uppercase;
+}
+
+.nav-list__link:hover.text-color-hover{
+    color: var(--dark-text-color);
 }
 .nav-list__link-btn{
     margin-top: 100px;

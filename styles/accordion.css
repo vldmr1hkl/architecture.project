@@ -31,13 +31,14 @@
 }
 
 .accordion__content-answer{
-    padding-top: 24px;
     opacity: 0;
     height: 0;
     overflow: hidden;
     transition: opacity 0.3s, height 0.3s;
 }
-
+.accordion__content-answer p{
+    padding-top: 24px;
+}
 .accordion__content-answer.active{
     opacity: 1;
     height: auto;
